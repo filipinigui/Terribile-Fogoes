@@ -1,0 +1,60 @@
+/**
+ * TERRIBILE FOGÕES - UTILITIES
+ */
+
+/* ============================================
+   SPACING
+   ============================================ */
+
+.mt-sm { margin-top: var(--spacing-sm); }
+.mt-md { margin-top: var(--spacing-md); }
+.mt-lg { margin-top: var(--spacing-lg); }
+
+.mb-sm { margin-bottom: var(--spacing-sm); }
+.mb-md { margin-bottom: var(--spacing-md); }
+.mb-lg { margin-bottom: var(--spacing-lg); }
+
+/* ============================================
+   TEXT
+   ============================================ */
+
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
+
+.text-primary { color: var(--color-primary); }
+.text-black   { color: var(--color-black); }
+.text-white   { color: var(--color-white); }
+.text-gray    { color: var(--color-gray); }
+.text-gray-light { color: var(--color-gray-light); }
+
+/* ============================================
+   DISPLAY / LAYOUT
+   ============================================ */
+
+.d-none         { display: none; }
+.d-block        { display: block; }
+.d-flex         { display: flex; }
+.relative       { position: relative; }
+.w-full         { width: 100%; }
+
+/* ============================================
+   RESPONSIVE VISIBILITY
+   ============================================ */
+
+@media (max-width: 768px) {
+  .hide-mobile { display: none; }
+}
+
+@media (min-width: 769px) {
+  .show-mobile { display: none; }
+}
+
+@media (max-width: 1024px) {
+  .hide-tablet { display: none; }
+}
+
+@media (min-width: 1025px) {
+  .show-tablet { display: none; }
+}
+

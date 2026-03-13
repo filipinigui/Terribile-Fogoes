@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TERRIBILE Fogões - O calor que aquece o coração. 
+        Fogões a lenha e acessórios de alta qualidade em Erechim-RS e região.">
+    <title>TERRIBILE Fogões | O Calor que Aquece o Coração</title>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Terribile Fogões",
+  "url": "https://loja.terribilefogoes.com.br",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Júlio Trombini, 186",
+    "addressLocality": "Erechim",
+    "addressRegion": "RS",
+    "postalCode": "99711-230",
+    "addressCountry": "BR"
+  },
+  "telephone": "+55 54 99996-0180"
+}
+</script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Modular -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/utilities.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" class="navbar__brand">
+                <img src="assets/img/Marca Terribile sem slogan_branco.png" alt="TERRIBILE Fogões" class="navbar__logo">
+            </a>
+
+            <button class="navbar__toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="navbar__menu">
+                <li><a href="#home" class="navbar__link active">Início</a></li>
+                <li><a href="#produtos" class="navbar__link">Produtos</a></li>
+                <li><a href="#sobre" class="navbar__link">Sobre</a></li>
+                <li><a href="#contato" class="navbar__link">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero__content">
+            <div class="hero__text" data-animate>
+                <h1>
+                    FOGÕES <span class="hero__highlight">TERRIBILE</span>
+                </h1>
+                <p class="hero__slogan">Tradição que aquece, qualidade que encanta</p>
+                <p class="hero__description">
+                    Há mais de uma década produzindo fogões a lenha de alta qualidade.
+                    Tradição, tecnologia e o melhor acabamento para sua casa.
+                </p>
+                <div class="hero__cta">
+                    <a href="#produtos" class="btn btn--primary">Ver Produtos</a>
+                    <button onclick="contactWhatsApp()" class="btn btn--secondary">Fale Conosco</button>
+                </div>
+            </div>
+
+            <div class="hero__visual" data-animate>
+                <div class="hero__visual-grid">
+                    <div class="hero__visual-item animate-child">
+                        <img src="assets/img/produtos/destaque/fog1.png" alt="Fogão Vitrocerâmica"
+                            onerror="this.style.display='none'">
+                    </div>
+                    <div class="hero__visual-item animate-child">
+                        <img src="assets/img/produtos/destaque/fog2.jpg" alt="Fogão Terribile"
+                            onerror="this.style.display='none'">
+                    </div>
+                    <div class="hero__visual-item animate-child">
+                        <img src="assets/img/produtos/destaque/fog3.jpg" alt="Fogão Industrial"
+                            onerror="this.style.display='none'">
+                    </div>
+                    <div class="hero__visual-item animate-child">
+                        <img src="assets/img/Simbolo Terribile (1).png" alt="TERRIBILE">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats: absolutos no desktop, fluem abaixo no mobile via CSS -->
+        <div class="hero__stats">
+            <div class="stat" data-animate>
+                <span class="stat__number">15+</span>
+                <span class="stat__label">Anos de Experiência</span>
+            </div>
+            <div class="stat" data-animate>
+                <span class="stat__number">1000+</span>
+                <span class="stat__label">Clientes Satisfeitos</span>
+            </div>
+            <div class="stat" data-animate>
+                <span class="stat__number">100%</span>
+                <span class="stat__label">Qualidade Garantida</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUTOS EM DESTAQUE -->
+    <section id="produtos" class="section section--light">
+        <div class="section__container">
+            <div class="section__header" data-animate>
+                <span class="section__label">NOSSOS PRODUTOS</span>
+                <h2 class="section__title">Linha Completa de Fogões</h2>
+                <p class="section__description">
+                    Fogões a lenha com a qualidade TERRIBILE. Escolha o modelo perfeito para sua necessidade.
+                </p>
+            </div>
+
+            <div class="grid grid--auto mt-lg">
+                <div class="category-card" data-animate>
+                    <div class="category-card__icon"><img
+                            src="assets/img/produtos/vitroceramica/vitroceramica-lorem1-gabinete.png" alt=""></div>
+                    <h3 class="category-card__title">Chapa Vitrocerâmica</h3>
+                    <p class="category-card__description">Fogões a lenha com chapa de vitrocerâmica temperada.
+                        Elegância e resistência.</p>
+                    <a href="produtos.html?filter=fogoes-vitroceramica" class="btn btn--primary">Ver Modelos</a>
+                </div>
+
+                <div class="category-card" data-animate>
+                    <div class="category-card__icon"><img src="assets/img/produtos/aluminio/al-lorem1.png" alt=""></div>
+                    <h3 class="category-card__title">Chapa de Alumínio</h3>
+                    <p class="category-card__description">Fogões a lenha com chapa de alumínio fundido de alta
+                        qualidade.
+                        Durabilidade superior.</p>
+                    <a href="produtos.html?filter=fogoes-aluminio" class="btn btn--primary">Ver Modelos</a>
+                </div>
+
+                <div class="category-card" data-animate>
+                    <div class="category-card__icon"><img src="assets/img/produtos/ferro/fe-lorem2-gabinete.png" alt="">
+                    </div>
+                    <h3 class="category-card__title">Chapa de Ferro</h3>
+                    <p class="category-card__description">Fogões a lenha com chapa de ferro fundido. Máxima
+                        resistência.</p>
+                    <a href="produtos.html?filter=fogoes-ferro" class="btn btn--primary">Ver Modelos</a>
+                </div>
+
+                <div class="category-card" data-animate>
+                    <div class="category-card__icon"><img src="assets/img/produtos/destaque/fog1.png"
+                            alt="Fogões Campeiros"></div>
+                    <h3 class="category-card__title">Fogões Campeiros</h3>
+                    <p class="category-card__description">Fogões campeiros a lenha prontos ou sob medida, descubra nossa
+                        seleção de peças</p>
+                    <a href="produtos.html?filter=fogoes-campeiros" class="btn btn--primary">Ver Modelos</a>
+                </div>
+
+                <div class="category-card" data-animate>
+                    <div class="category-card__icon"><img src="assets/img/produtos/destaque/fog1.png"
+                            alt="Acessórios"></div>
+                    <h3 class="category-card__title">Acessórios</h3>
+                    <p class="category-card__description">Varões, serpentinas, canos, chapéus, galos, e diversos outros para seu fogão</p>
+                    <a href="produtos.html?filter=acessorios-fogao" class="btn btn--primary">Ver Modelos</a>
+                </div>
+            </div>
+
+            <div class="text-center mt-lg" data-animate>
+                <a href="produtos.html" class="btn btn--secondary">Ver Todos os Produtos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section section--dark">
+        <div class="section__container">
+            <div class="grid grid--about">
+                <div data-animate>
+                    <span class="section__label">NOSSA HISTÓRIA</span>
+                    <h2 class="section__title text-white">Tradição e Qualidade Desde 2009</h2>
+                    <p class="text-gray-light">
+                        A <strong class="text-primary">TERRIBILE</strong> nasceu da paixão pela metalurgia e pela
+                        fabricação de produtos de qualidade.
+                        Há mais de 15 anos, produzimos fogões que combinam tradição familiar com tecnologia moderna.
+                    </p>
+                    <p class="text-gray-light">
+                        Cada fogão é cuidadosamente fabricado em nossas instalações em Aratiba-RS,
+                        passando por rigoroso controle de qualidade antes de chegar até você.
+                    </p>
+                    <p class="text-gray-light">
+                        Nossa missão é simples: <em class="text-primary">"produzir o melhor fogão do Brasil"</em>,
+                        levando calor e qualidade para lares e estabelecimentos em todo o país.
+                    </p>
+                </div>
+
+                <div data-animate class="relative">
+                    <img src="assets/img/Marca Terribile com slogan_Original.png"
+                        alt="TERRIBILE - O calor que aquece o coração" class="w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="section section--light">
+        <div class="section__container">
+            <div class="section__header" data-animate>
+                <span class="section__label">DIFERENCIAIS</span>
+                <h2 class="section__title">Por Que Escolher TERRIBILE?</h2>
+            </div>
+
+            <div class="grid grid--4 mt-lg">
+                <div class="differential" data-animate>
+                    <div class="differential__icon"><img src="assets/img/icones/qualidade.png" alt=""></div>
+                    <h3 class="differential__title">Qualidade Superior</h3>
+                    <p class="differential__description">
+                        Materiais selecionados e acabamento impecável em cada detalhe do produto.
+                    </p>
+                </div>
+
+                <div class="differential" data-animate>
+                    <div class="differential__icon"><img src="assets/img/icones/produtos-artesanais.png" alt=""></div>
+                    <h3 class="differential__title">Fabricação Própria</h3>
+                    <p class="differential__description">
+                        Cada fogão é desenhado para ser eterno, trazer inovação e beleza.
+
+                    </p>
+                </div>
+
+                <div class="differential" data-animate>
+                    <div class="differential__icon"><img src="assets/img/icones/inovacao.png" alt=""></div>
+                    <h3 class="differential__title">Tecnologia</h3>
+                    <p class="differential__description">
+                        Os fogões são feitos para terem a maior eficiência na queima da lenha, trazendo uma eficiência até 4x maior do que fogões comuns. 
+                    </p>
+                </div>
+
+                <div class="differential" data-animate>
+                    <div class="differential__icon"><img src="assets/img/icones/qualidade.png" alt=""></div>
+                    <h3 class="differential__title">Garantia</h3>
+                    <p class="differential__description">
+                        Todos os produtos contam com garantia e suporte técnico especializado pós-venda.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section section--primary">
+        <div class="section__container">
+            <div class="section__header" data-animate>
+                <span class="section__label text-white">FALE CONOSCO</span>
+                <h2 class="section__title text-white">Entre em Contato</h2>
+                <p class="section__description text-white">
+                    Estamos prontos para atender você. Escolha a melhor forma de contato.
+                </p>
+            </div>
+
+            <div class="grid grid--auto mt-lg">
+                <div class="contact-card" data-animate>
+                    <div class="contact-card__icon"><img src="assets/img/icones/whatsapp.png" alt=""></div>
+                    <h4 class="contact-card__title">WhatsApp</h4>
+                    <p class="contact-card__description">Atendimento rápido e personalizado</p>
+                    <a href="https://wa.me/54999960180?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20fogões%20TERRIBILE."
+                        class="btn btn--primary" target="_blank">Iniciar Conversa</a>
+                </div>
+
+                <div class="contact-card" data-animate>
+                    <div class="contact-card__icon"><img src="assets/img/icones/usuarios-alt.png" alt=""></div>
+                    <h4 class="contact-card__title">Redes Sociais</h4>
+                    <p class="contact-card__description">Acompanhe nossas novidades</p>
+                    <div class="contact-card__actions">
+                        <a href="https://www.instagram.com/terribilefogoes/" target="_blank"
+                            class="contact-card__link">Instagram</a>
+                        <a href="https://www.facebook.com/terribilefogoes/" target="_blank"
+                            class="contact-card__link">Facebook</a>
+                    </div>
+                </div>
+
+                <div class="contact-card" data-animate>
+                    <div class="contact-card__icon"><img src="assets/img/icones/marcador-de-mapa.png" alt=""></div>
+                    <h4 class="contact-card__title">Nossas Unidades</h4>
+                    <a class="contact-card__description" href="https://maps.app.goo.gl/f8tvZZhDMTHNZwoP8"
+                        target="_blank">
+                        <div>
+                            <strong>Fábrica Aratiba:</strong><br>
+                            R. Ângelo João Pavan, 106 - Aratiba/RS
+                        </div>
+                    </a>
+
+                    <a class="contact-card__description" href="https://maps.app.goo.gl/cxfc2sKJdxpDmh1F7"
+                        target="_blank">
+                        <div>
+                            <strong>Unidade Erechim:</strong><br>
+                            R. Júlio Trombini, 181 - Erechim/RS
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__grid">
+            <div class="footer__brand">
+                <img src="assets/img/Marca Terribile sem slogan_branco.png" alt="TERRIBILE Fogões"
+                    class="footer__logo">
+                <p>Fogões a lenha de alta qualidade. Tradição e excelência desde 2009.</p>
+            </div>
+
+            <div class="footer__section">
+                <h4>Links Rápidos</h4>
+                <ul class="footer__links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__section">
+                <h4>Categorias</h4>
+                <ul class="footer__links">
+                    <li><a href="produtos.html?filter=fogoes-vitroceramica">Chapa Vitrocerâmica</a></li>
+                    <li><a href="produtos.html?filter=fogoes-aluminio">Chapa de Alumínio</a></li>
+                    <li><a href="produtos.html?filter=fogoes-ferro">Chapa de Ferro</a></li>
+                    <li><a href="produtos.html?filter=fogoes-campeiros">Fogões Campeiros</a></li>
+                    <li><a href="produtos.html?filter=acessorios-fogao">Acessórios</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__section">
+                <h4>Contato</h4>
+                <ul class="footer__links">
+                    <li>(54) 9 9996-0180</li>
+                    <li>contato@terribilefogoes.com</li>
+                    <li>Seg-Sex: 9h às 17:30h</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p>&copy; 2026 TERRIBILE Fogões - Metalúrgica Aratiba. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript: sempre no final do body para não bloquear renderização -->
+    <script src="assets/js/produtos.js"></script>
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
