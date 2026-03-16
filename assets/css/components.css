@@ -241,6 +241,68 @@
   gap: 0.75rem;
 }
 
+/* === PRODUCT CARD - botões alinhados + descrição expansível === */
+
+/* 1. Card como coluna flex */
+.product-card {
+  overflow: visible; /* permite a descrição expandir sobre os botões */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mantém overflow:hidden só na imagem (para o efeito de scale) */
+.product-card__image {
+  overflow: hidden;
+}
+
+/* 2. Info como coluna flex */
+.product-card__info {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  overflow: visible;
+}
+
+/* 3. Descrição: travada em 6 linhas */
+.product-card__description {
+  color: var(--color-gray);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  position: relative;
+  z-index: 2;
+  background: var(--color-white);
+  transition: box-shadow 0.25s ease;
+}
+
+/* 4. Botões sempre no fundo */
+.product-card__actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: auto;
+  padding-top: 1.5rem;
+  position: relative;
+  z-index: 1;
+  background: var(--color-white);
+}
+
+/* 5. Hover/toque: expande sobre os botões */
+.product-card:hover .product-card__description {
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+  overflow: visible;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
 /* ============================================
    STATS
    ============================================ */

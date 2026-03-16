@@ -32,6 +32,8 @@ const produtosData = {
         Acabamento: "Inox",
         "Material da Fornalha": "Tijolos refratários",
         "Tamanho da Fornalha (A x L x P)": "14,5 x 21,5 x 34 cm",
+        "Tamanho do Forno (A x L x P)": "Não possui",
+        "Tamanho do Porta lenha (A x L x P)": "Não possui",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
@@ -48,7 +50,7 @@ const produtosData = {
         "Puxadores Ergonômicos: Desenvolvidos para não aquecerem excessivamente, garantindo segurança e conforto no manuseio.",
       ],
       frase: [
-        "Fabricados com dedicação em Aratiba-RS, nossos fogões são sinônimo de qualidade, funcionalidade e do calor acolhedor que só um produto feito com paixão pode oferecer",
+        "Fabricados com dedicação em Aratiba-RS, nossos fogões são sinônimo de qualidade, funcionalidade e do calor acolhedor que só um produto feito com paixão pode oferecer.",
       ],
       mensagemWhatsApp:
         "Olá! Gostaria de mais informações sobre o Fogão Loren 1 Vitrocerâmica.",
@@ -81,6 +83,7 @@ const produtosData = {
         "Material da Fornalha": "Tijolos refratários",
         "Tamanho da Fornalha (A x L x P)": "14,5 x 21,5 x 45cm",
         "Tamanho do Forno (A x L x P)": "28 x 28 x 61cm",
+        "Tamanho do Porta lenha (A x L x P)": "Não possui",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
@@ -99,7 +102,7 @@ const produtosData = {
       mensagemWhatsApp:
         "Olá! Gostaria de um orçamento para o Fogão Loren 2 Vitrocerâmica.",
     },
-    {
+    /*  {
       id: "vitro-loren00",
       nome: "Fogão Loren 00 Vitrocerâmica",
       categoria: "Fogões Chapa Vitrocerâmica",
@@ -124,6 +127,8 @@ const produtosData = {
         "Material da Fornalha":
           "Câmara ampliada com tijolos refratários de alto teor de alumina",
         "Tamanho da Fornalha (A x L x P)": "18 x 35 x 50 cm",
+        "Tamanho do Forno (A x L x P)": "Não possui",
+        "Tamanho do Porta lenha (A x L x P)": "Não possui",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
@@ -140,9 +145,12 @@ const produtosData = {
         "Suporta panelas e recipientes de grande porte.",
         "Garantia TERRIBILE de 12 meses.",
       ],
+      frase: [
+        "Potência e capacidade industrial fabricadas em Aratiba-RS — o Fogão Loren 00 é a escolha definitiva para cozinhas comerciais que exigem resultado profissional e durabilidade incomparável.",
+      ],
       mensagemWhatsApp:
         "Preciso de informações sobre o Fogão Loren 00 Vitrocerâmico para uso comercial.",
-    },
+    }, */
     {
       id: "vitro-duplacombustao",
       nome: "Fogão Dupla Combustão Vitrocerâmica",
@@ -156,25 +164,27 @@ const produtosData = {
         "assets/img/produtos/vitroceramica/dupla-detalhe.jpg",
       ],
       especificacoes: {
-        Modelo: "Dupla Combustão Vitrocerâmica",
+        Modelo: "FOGÃO DUPLA COMBUSTÃO",
         Tipo: "A lenha",
         Sistema: "Dupla combustão — queima dos gases residuais",
         "Saídas da Chaminé":
-          "Atrás: lado esquerdo / Atrás: lado direito / Na chapa: lado esquerdo / Na chapa: lado direito",
-        Chapa: "Vitrocerâmica temperada especial – 6 mm",
-        "Diâmetro da Chaminé": "Ø 150 mm",
+          "Atrás lado direito e esquerdo/ Na chapa lado direito e esquerdo",
+        Chapa: "Vitrocerâmica",
+        "Tamanho da chapa:": "75 x 45cm",
+        "Diâmetro da Chaminé": "Ø 115 mm",
         "Dimensões (A x L x P)": "88 x 79 x 70 cm",
-        Peso: "58 kg",
-        Pintura: "Eletrostática",
-        Acabamento: "Preto matte com detalhes em inox",
+        Peso: "75 kg",
+        Pintura: "Resistente a altas tempetraturas 'WEG'",
+        Acabamento: "Inox",
         "Material da Fornalha":
-          "Câmara de dupla combustão com tijolos refratários de alto teor de alumina",
-        "Tamanho da Fornalha (A x L x P)": "16 x 23 x 40 cm",
+          "Câmara de dupla combustão com Tijolos refratários",
+        "Tamanho da Fornalha (A x L x P)": "18,5 x 18 x 40cm",
+        "Tamanho do Forno (A x L x P)": "23,5 x 36 x 43cm",
+        "Tamanho do Porta lenha (A x L x P)": "14,5 x  61 x 40cm",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
         "Moldura das Portas": "Alumínio fundido",
-        Garantia: "12 meses contra defeitos de fabricação",
       },
       caracteristicas: [
         "Sistema de dupla combustão — maior aproveitamento do calor e queima dos gases residuais.",
@@ -188,6 +198,9 @@ const produtosData = {
         "Regulagem precisa da entrada de ar.",
         "Garantia TERRIBILE de 12 meses.",
       ],
+      frase: [
+        "Descubra a inovação culinária com nosso fogão de Dupla Combustão, que une o melhor da tecnologia e tradição. Equipado com uma chapa vitrocerâmica de alto desempenho, ele garante aquecimento intenso e uniforme, otimizando o consumo de lenha. O porta-lenha embutido oferece praticidade e um toque de imponência ao design. A grande estrela é o sistema de Dupla Combustão, que maximiza a eficiência energética e reduz a emissão de fumaça, proporcionando uma queima mais limpa e potente. E para suas receitas, conte com um forno espaçoso e incrivelmente eficiente, que aquece por todos os lados, assegurando um cozimento perfeito e homogêneo.",
+      ],
       mensagemWhatsApp:
         "Gostaria de saber mais sobre o Fogão Dupla Combustão Vitrocerâmico.",
     },
@@ -196,7 +209,7 @@ const produtosData = {
       nome: "Fogão Loren 1 Vitrocerâmica com Gabinete",
       categoria: "Fogões Chapa Vitrocerâmica",
       descricao:
-        "Fogão a lenha Loren 1 com chapa vitrocerâmica e gabinete completo. Conta com forno de interior em inox, termômetro analógico e depósito para lenha — tudo em um só produto.",
+        "O Fogão Loren Gabinete nº1 redefine a eficiência e o design na sua cozinha. Com sua chapa vitrocerâmica de aquecimento  instantâneo e intenso e consumo otimizado de lenha, ele garante um desempenho superior.",
       imagens: [
         "assets/img/produtos/vitroceramica/vitroceramica-lorem1-gabinete.png",
         "assets/img/produtos/vitroceramica/gabinete1-lateral.jpg",
@@ -204,44 +217,39 @@ const produtosData = {
         "assets/img/produtos/vitroceramica/gabinete1-detalhe.jpg",
       ],
       especificacoes: {
-        Modelo: "Loren 1 Vitrocerâmica com Gabinete",
+        Modelo: "LOREN N1",
         Tipo: "A lenha",
         "Saídas da Chaminé":
-          "Atrás: lado esquerdo / Atrás: lado direito / Na chapa: lado esquerdo / Na chapa: lado direito",
-        Chapa: "Vitrocerâmica temperada – 6 mm",
-        Forno: "Interior em inox com termômetro analógico até 350 °C",
-        "Diâmetro da Chaminé": "Ø 150 mm",
-        "Dimensões (A x L x P)": "140 x 72 x 60 cm",
-        Peso: "75 kg",
+          "Atrás lado direito e esquerdo/ Na chapa lado direito e esquerdo",
+        Chapa: "Vitrocerâmica ",
+        "Tamanho da chapa": "75 x 45cm",
+        "Tamanho da chapa com varão": "85 X 95cm",
+        "Diâmetro da Chaminé": "Ø 115 mm",
+        "Dimensões (A x L x P)": "85 X 95 X 58cm",
+        Peso: "70kg",
         Pintura: "Eletrostática",
-        Acabamento: "Preto matte com detalhes em inox",
-        "Material da Fornalha": "Tijolos refratários de alto teor de alumina",
-        "Tamanho da Fornalha (A x L x P)": "14,5 x 21,5 x 34 cm",
+        Acabamento: "Inox",
+        "Material da Fornalha": "Tijolos refratários",
+        "Tamanho da Fornalha (A x L x P)": "14,5 x 21,5 x 34cm",
+        "Tamanho do Forno (A x L x P)": "28 x 28 x 45,5cm",
+        "Tamanho do Porta lenha (A x L x P)": "14,5 x  60 x 40cm",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
-        "Material do Forno": "Inox",
-        "Tamanho do Forno (A x L x P)": "28 x 28 x 45,5 cm",
         "Moldura das Portas": "Alumínio fundido",
-        Garantia: "12 meses contra defeitos de fabricação",
       },
       caracteristicas: [
-        "Chapa vitrocerâmica temperada de alta resistência.",
-        "Forno com interior em inox (28 x 28 x 45,5 cm) e termômetro analógico até 350 °C.",
-        "Aquecimento envolvente no forno para assar com uniformidade.",
-        "Fornalha de tijolos refratários de alto teor de alumina.",
-        "Estrutura em Aço Carbono 1,2 mm com interior em Inox.",
-        "Isolamento em Lã de Rocha para eficiência e segurança.",
-        "Moldura das Portas em Alumínio Fundido.",
-        "Pintura Eletrostática duradoura.",
-        "Depósito para lenha no gabinete inferior.",
-        "Puxadores cerâmicos resistentes ao calor.",
-        "Saída de chaminé em 4 posições configuráveis.",
-        "Varão em inox para apoio de utensílios.",
-        "Garantia TERRIBILE de 12 meses.",
+        "Ampla Chapa Vitrocerâmica de Alta Resistência: Oferece uma área de cozimento significativamente maior, garantindo durabilidade, distribuição uniforme de calor e uma superfície de fácil limpeza para múltiplas panelas simultaneamente.",
+        "Fornalha de Tijolos Refratários Otimizada: Projetada para um aquecimento ainda mais potente e eficiente, resultando em maior calor para o ambiente e menor consumo de lenha.",
+        "Forno com Maior Capacidade: Desfrute de um forno espaçoso, ideal para preparar pratos maiores e em maior quantidade, expandindo suas possibilidades culinárias.",
+        "Versatilidade na Instalação: Mantém as opções de saída de chaminé tanto na parte superior da chapa quanto na traseira do fogão, adaptando-se com flexibilidade ao seu espaço.",
+        "Puxadores Ergonômicos e Seguros: Desenvolvidos para não aquecerem excessivamente, garantindo segurança e conforto no manuseio, mesmo com uso prolongado.",
+      ],
+      frase: [
+        "O grande diferencial é o seu porta-lenha embutido, que não só oferece uma praticidade incomparável ao manter a lenha sempre à mão, mas também confere ao fogão uma presença mais imponente e sofisticada, elevando o estilo do seu ambiente.",
       ],
       mensagemWhatsApp:
-        "Olá! Quero informações sobre o Fogão Loren 1 Vitrocerâmica com Gabinete.",
+        "Olá! Gostaria de um orçamento para o Fogão Loren 1 Vitrocerâmica com Gabinete.",
     },
     {
       id: "vitro-loren2-gabinete",
@@ -272,13 +280,13 @@ const produtosData = {
         Acabamento: "inox",
         "Material da Fornalha": "Tijolos refratários",
         "Tamanho da Fornalha (A x L x P)": "14,5 x 21,5 x 45cm",
+        "Tamanho do Forno (A x L x P)": "28 x 28 x 61cm",
+        "Tamanho do Porta lenha (A x L x P)": "14,5 x 60 x 55cm",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
         "Material do Forno": "Inox",
-        "Tamanho do Forno (A x L x P)": "28 x 28 x 61cm",
         "Moldura das Portas": "Alumínio fundido",
-        "Tamanho da porta lenha (A x L x P)": "14,5 x  60 x 55cm",
         Garantia: "12 meses contra defeitos de fabricação",
       },
       caracteristicas: [
@@ -295,6 +303,9 @@ const produtosData = {
         "Saída de chaminé em 4 posições configuráveis.",
         "Regulagem de entrada de ar na porta do queimador.",
         "Garantia TERRIBILE de 12 meses.",
+      ],
+      frase: [
+        "Mais do que um fogão, o Loren Gabinete Nº2 é o coração da sua cozinha — com forno duplo, porta-lenha integrado e a maior chapa vitrocerâmica da linha, ele foi feito para quem não abre mão de capacidade e sofisticação.",
       ],
       mensagemWhatsApp:
         "Preciso de um orçamento para o Fogão Loren 2 Vitrocerâmica com Gabinete.",
@@ -330,6 +341,8 @@ const produtosData = {
         Acabamento: "Alumínio natural com acabamento matte",
         "Material da Fornalha": "Tijolos refratários de alto teor de alumina",
         "Tamanho da Fornalha (A x L x P)": "14,5 x 21,5 x 34 cm",
+        "Tamanho do Forno (A x L x P)": "Não possui",
+        "Tamanho do Porta lenha (A x L x P)": "Não possui",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
@@ -347,6 +360,9 @@ const produtosData = {
         "Saída de chaminé em 4 posições configuráveis.",
         "Regulagem de entrada de ar na porta do queimador.",
         "Garantia TERRIBILE de 12 meses.",
+      ],
+      frase: [
+        "Praticidade e leveza sem abrir mão da qualidade TERRIBILE — o Fogão Loren 1 Alumínio é a solução ideal para quem busca eficiência e facilidade no dia a dia da cozinha.",
       ],
       mensagemWhatsApp:
         "Olá! Gostaria de informações sobre o Fogão Loren 1 de Alumínio.",
@@ -376,6 +392,8 @@ const produtosData = {
         Acabamento: "Alumínio anodizado com acabamento matte",
         "Material da Fornalha": "Tijolos refratários de alto teor de alumina",
         "Tamanho da Fornalha (A x L x P)": "16 x 25 x 38 cm",
+        "Tamanho do Forno (A x L x P)": "Não possui",
+        "Tamanho do Porta lenha (A x L x P)": "Não possui",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
@@ -394,6 +412,9 @@ const produtosData = {
         "Varão em inox para apoio de utensílios.",
         "Regulagem de entrada de ar na porta do queimador.",
         "Garantia TERRIBILE de 12 meses.",
+      ],
+      frase: [
+        "Mais espaço, mais potência e o mesmo acabamento premium que só a TERRIBILE oferece — o Fogão Loren 2 Alumínio é perfeito para quem precisa cozinhar para mais pessoas com praticidade e estilo.",
       ],
       mensagemWhatsApp:
         "Preciso de um orçamento para o Fogão Loren 2 de Alumínio.",
@@ -424,11 +445,12 @@ const produtosData = {
         Acabamento: "Alumínio natural com acabamento matte",
         "Material da Fornalha": "Tijolos refratários de alto teor de alumina",
         "Tamanho da Fornalha (A x L x P)": "14,5 x 21,5 x 34 cm",
+        "Tamanho do Forno (A x L x P)": "28 x 28 x 45,5 cm",
+        "Tamanho do Porta lenha (A x L x P)": "14,5 x 43 x 40 cm",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
         "Material do Forno": "Inox",
-        "Tamanho do Forno (A x L x P)": "28 x 28 x 45,5 cm",
         "Moldura das Portas": "Alumínio fundido",
       },
       caracteristicas: [
@@ -443,6 +465,9 @@ const produtosData = {
         "Depósito para lenha no gabinete inferior.",
         "Saída de chaminé em 4 posições configuráveis.",
         "Puxadores resistentes ao calor.",
+      ],
+      frase: [
+        "Completo do porta-lenha ao forno com termômetro — o Fogão Loren 1 Alumínio com Gabinete reúne tudo que você precisa em um único produto, fabricado com o cuidado artesanal de Aratiba-RS.",
       ],
       mensagemWhatsApp:
         "Olá! Preciso de informações sobre o Fogão Loren 1 Alumínio com Gabinete.",
@@ -473,11 +498,12 @@ const produtosData = {
         Acabamento: "Alumínio anodizado com acabamento matte",
         "Material da Fornalha": "Tijolos refratários de alto teor de alumina",
         "Tamanho da Fornalha (A x L x P)": "16 x 25 x 38 cm",
+        "Tamanho do Forno (A x L x P)": "32 x 32 x 50 cm",
+        "Tamanho do Porta lenha (A x L x P)": "14,5 x 67 x 40 cm",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
         "Material do Forno": "Inox",
-        "Tamanho do Forno (A x L x P)": "32 x 32 x 50 cm",
         "Moldura das Portas": "Alumínio fundido",
       },
       caracteristicas: [
@@ -492,6 +518,9 @@ const produtosData = {
         "Depósito para lenha no gabinete inferior.",
         "Varão em inox para apoio de utensílios.",
         "Saída de chaminé em 4 posições configuráveis.",
+      ],
+      frase: [
+        "A solução mais completa da linha alumínio TERRIBILE — forno amplo, porta-lenha integrado e chapa anodizada de alta resistência para uma cozinha que produz mais com mais elegância.",
       ],
       mensagemWhatsApp:
         "Quero um orçamento para o Fogão Loren 2 Alumínio com Gabinete.",
@@ -527,6 +556,8 @@ const produtosData = {
         Acabamento: "Preto fosco resistente a altas temperaturas",
         "Material da Fornalha": "Tijolos refratários de alto teor de alumina",
         "Tamanho da Fornalha (A x L x P)": "14,5 x 21,5 x 34 cm",
+        "Tamanho do Forno (A x L x P)": "Não possui",
+        "Tamanho do Porta lenha (A x L x P)": "Não possui",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
@@ -543,6 +574,9 @@ const produtosData = {
         "Saída de chaminé em 4 posições configuráveis.",
         "Regulagem de entrada de ar na porta do queimador.",
         "Construção robusta para uso intenso e duradouro.",
+      ],
+      frase: [
+        "A tradição do ferro fundido com o padrão de qualidade TERRIBILE — o Fogão Loren 1 Ferro é robusto, duradouro e entrega o aquecimento uniforme que só o ferro maciço é capaz de proporcionar.",
       ],
       mensagemWhatsApp:
         "Olá! Gostaria de informações sobre o Fogão Loren 1 de Ferro Fundido.",
@@ -573,6 +607,8 @@ const produtosData = {
         "Material da Fornalha":
           "Câmara ampliada com tijolos refratários de alto teor de alumina",
         "Tamanho da Fornalha (A x L x P)": "16 x 28 x 42 cm",
+        "Tamanho do Forno (A x L x P)": "Não possui",
+        "Tamanho do Porta lenha (A x L x P)": "Não possui",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
@@ -590,54 +626,11 @@ const produtosData = {
         "Varão em inox para apoio de utensílios.",
         "Regulagem de entrada de ar na porta do queimador.",
       ],
+      frase: [
+        "Mais potência e mais área de cozimento — o Fogão Loren 2 Ferro combina a inércia térmica superior do ferro fundido com o acabamento e a confiabilidade que são marca registrada da TERRIBILE.",
+      ],
       mensagemWhatsApp:
         "Preciso de um orçamento para o Fogão Loren 2 de Ferro Fundido.",
-    },
-    {
-      id: "fe-loren3",
-      nome: "Fogão Loren 3 Ferro Fundido",
-      categoria: "Fogões Chapa de Ferro",
-      descricao:
-        "O maior fogão a lenha da linha ferro da TERRIBILE. Câmara de combustão extra reforçada, chapa de ferro de alta espessura e capacidade para atender grandes volumes — perfeito para cozinhas profissionais.",
-      imagens: [
-        "assets/img/produtos/ferro/industrial-frente.jpg",
-        "assets/img/produtos/ferro/industrial-lateral.jpg",
-        "assets/img/produtos/ferro/industrial-topo.jpg",
-        "assets/img/produtos/ferro/industrial-restaurante.jpg",
-      ],
-      especificacoes: {
-        Modelo: "Loren 3 Ferro Fundido",
-        Tipo: "A lenha",
-        "Saídas da Chaminé":
-          "Atrás: lado esquerdo / Atrás: lado direito / Na chapa: lado esquerdo / Na chapa: lado direito",
-        Chapa: "Ferro fundido extra reforçado – alta espessura",
-        "Diâmetro da Chaminé": "Ø 200 mm",
-        "Dimensões (A x L x P)": "90 x 125 x 93 cm",
-        Peso: "135 kg",
-        Pintura: "Eletrostática",
-        Acabamento: "Preto fosco resistente a altas temperaturas",
-        "Material da Fornalha":
-          "Câmara extra reforçada com tijolos refratários de alto teor de alumina",
-        "Tamanho da Fornalha (A x L x P)": "20 x 38 x 56 cm",
-        "Estrutura Externa": "Aço carbono 1,2 mm",
-        "Estrutura Interna": "Inox",
-        "Isolamento Interno": "Lã de rocha",
-        "Moldura das Portas": "Alumínio fundido",
-      },
-      caracteristicas: [
-        "Chapa de ferro fundido extra reforçado de alta espessura.",
-        "Câmara de combustão extra reforçada para uso de alta demanda.",
-        "Tijolos refratários de alto teor de alumina na fornalha.",
-        "Estrutura em Aço Carbono 1,2 mm com interior em Inox.",
-        "Isolamento em Lã de Rocha para máxima eficiência.",
-        "Moldura das Portas em Alumínio Fundido.",
-        "Pintura Eletrostática resistente a altas temperaturas.",
-        "Suporta panelas industriais e grande quantidade de alimentos.",
-        "Saída de chaminé em 4 posições configuráveis.",
-        "Alta inércia térmica — aquecimento potente e duradouro.",
-      ],
-      mensagemWhatsApp:
-        "Gostaria de saber sobre o Fogão Loren 3 de Ferro Fundido.",
     },
     {
       id: "fe-loren1-gabinete",
@@ -665,11 +658,12 @@ const produtosData = {
         Acabamento: "Preto fosco resistente a altas temperaturas",
         "Material da Fornalha": "Tijolos refratários de alto teor de alumina",
         "Tamanho da Fornalha (A x L x P)": "14,5 x 21,5 x 34 cm",
+        "Tamanho do Forno (A x L x P)": "28 x 28 x 45,5 cm",
+        "Tamanho do Porta lenha (A x L x P)": "14,5 x 45 x 42 cm",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
         "Material do Forno": "Inox",
-        "Tamanho do Forno (A x L x P)": "28 x 28 x 45,5 cm",
         "Moldura das Portas": "Alumínio fundido",
       },
       caracteristicas: [
@@ -684,6 +678,9 @@ const produtosData = {
         "Depósito para lenha no gabinete inferior.",
         "Puxadores cerâmicos e varão em inox.",
         "Saída de chaminé em 4 posições configuráveis.",
+      ],
+      frase: [
+        "Tradição e praticidade reunidas em um único fogão — o Loren 1 Ferro com Gabinete traz o aquecimento robusto do ferro fundido aliado ao forno completo e ao porta-lenha integrado para o dia a dia da sua cozinha.",
       ],
       mensagemWhatsApp:
         "Olá! Quero informações sobre o Fogão Loren 1 de Ferro com Gabinete.",
@@ -715,11 +712,12 @@ const produtosData = {
         "Material da Fornalha":
           "Câmara ampliada com tijolos refratários de alto teor de alumina",
         "Tamanho da Fornalha (A x L x P)": "16 x 28 x 42 cm",
+        "Tamanho do Forno (A x L x P)": "32 x 32 x 50 cm",
+        "Tamanho do Porta lenha (A x L x P)": "14,5 x 67 x 55 cm",
         "Estrutura Externa": "Aço carbono 1,2 mm",
         "Estrutura Interna": "Inox",
         "Isolamento Interno": "Lã de rocha",
         "Material do Forno": "Inox",
-        "Tamanho do Forno (A x L x P)": "32 x 32 x 50 cm",
         "Moldura das Portas": "Alumínio fundido",
       },
       caracteristicas: [
@@ -735,207 +733,18 @@ const produtosData = {
         "Saída de chaminé em 4 posições configuráveis.",
         "Puxadores cerâmicos e varão em inox.",
       ],
+      frase: [
+        "Performance comercial com acabamento artesanal — o Fogão Loren 2 Ferro com Gabinete foi projetado para cozinhas que não param, com câmara ampliada, forno espaçoso e a resistência inigualável do ferro fundido.",
+      ],
       mensagemWhatsApp:
         "Preciso de detalhes sobre o Fogão Loren 2 de Ferro com Gabinete.",
-    },
-    {
-      id: "fe-loren3-gabinete",
-      nome: "Fogão Loren 3 Ferro com Gabinete",
-      categoria: "Fogões Chapa de Ferro",
-      descricao:
-        "O topo da linha ferro TERRIBILE. Fogão a lenha de grande porte com chapa de ferro extra reforçada, forno duplo em inox e gabinete profissional — desenvolvido para cozinhas de alta performance.",
-      imagens: [
-        "assets/img/produtos/ferro/restaurante-frente.jpg",
-        "assets/img/produtos/ferro/restaurante-lateral.jpg",
-        "assets/img/produtos/ferro/restaurante-topo.jpg",
-        "assets/img/produtos/ferro/restaurante-uso.jpg",
-      ],
-      especificacoes: {
-        Modelo: "Loren 3 Ferro com Gabinete",
-        Tipo: "A lenha",
-        "Saídas da Chaminé":
-          "Atrás: lado esquerdo / Atrás: lado direito / Na chapa: lado esquerdo / Na chapa: lado direito",
-        Chapa: "Ferro fundido extra reforçado – alta espessura",
-        Forno:
-          "Interior em inox com termômetro analógico até 350 °C — forno duplo",
-        "Diâmetro da Chaminé": "Ø 200 mm",
-        "Dimensões (A x L x P)": "140 x 125 x 93 cm",
-        Peso: "210 kg",
-        Pintura: "Eletrostática",
-        Acabamento: "Preto fosco resistente a altas temperaturas",
-        "Material da Fornalha":
-          "Câmara extra reforçada com tijolos refratários de alto teor de alumina",
-        "Tamanho da Fornalha (A x L x P)": "20 x 38 x 56 cm",
-        "Estrutura Externa": "Aço carbono 1,2 mm",
-        "Estrutura Interna": "Inox",
-        "Isolamento Interno": "Lã de rocha",
-        "Material do Forno": "Inox",
-        "Tamanho do Forno (A x L x P)": "36 x 38 x 55 cm (por forno)",
-        "Moldura das Portas": "Alumínio fundido",
-      },
-      caracteristicas: [
-        "Chapa de ferro fundido extra reforçado de alta espessura.",
-        "Forno duplo com interior em inox e termômetro analógico até 350 °C.",
-        "Câmara de combustão extra reforçada para uso profissional contínuo.",
-        "Aquecimento envolvente nos dois fornos para resultados profissionais.",
-        "Estrutura em Aço Carbono 1,2 mm com interior em Inox.",
-        "Isolamento em Lã de Rocha para máxima eficiência.",
-        "Moldura das Portas em Alumínio Fundido.",
-        "Pintura Eletrostática duradoura.",
-        "Depósito para lenha no gabinete inferior.",
-        "Saída de chaminé em 4 posições configuráveis.",
-        "Puxadores cerâmicos e varão em inox.",
-      ],
-      mensagemWhatsApp:
-        "Gostaria de um orçamento para o Fogão Loren 3 de Ferro com Gabinete.",
-    },
-  ],
-
-  // ====================================
-  // CATEGORIA 4: FOGÕES CAMPEIROS
-  // ====================================
-  "fogoes-campeiros": [
-    {
-      id: "camp-loren1",
-      nome: "Fogão Campeiro Loren 1",
-      categoria: "Fogões Campeiros",
-      descricao:
-        "Fogão campeiro a lenha Loren 1, compacto e resistente. Projetado para uso ao ar livre, ranchos, galpões e cozinhas rurais — onde o calor da lenha é tradição.",
-      imagens: [
-        "assets/img/produtos/campeiro/camp-loren1-frente.jpg",
-        "assets/img/produtos/campeiro/camp-loren1-lateral.jpg",
-        "assets/img/produtos/campeiro/camp-loren1-topo.jpg",
-        "assets/img/produtos/campeiro/camp-loren1-detalhe.jpg",
-      ],
-      especificacoes: {
-        Modelo: "Campeiro Loren 1",
-        Tipo: "A lenha",
-        "Saídas da Chaminé":
-          "Atrás: lado esquerdo / Atrás: lado direito / Na chapa: lado esquerdo / Na chapa: lado direito",
-        Chapa: "Ferro fundido maciço",
-        "Diâmetro da Chaminé": "Ø 150 mm",
-        "Dimensões (A x L x P)": "80 x 65 x 52 cm",
-        Peso: "55 kg",
-        Pintura: "Eletrostática",
-        Acabamento: "Preto fosco resistente a intempéries",
-        "Material da Fornalha": "Câmara aberta com grelha em ferro fundido",
-        "Tamanho da Fornalha (A x L x P)": "14,5 x 21,5 x 34 cm",
-        "Estrutura Externa": "Aço carbono 1,2 mm",
-        "Estrutura Interna": "Inox",
-        "Isolamento Interno": "Lã de rocha",
-        "Moldura das Portas": "Alumínio fundido",
-      },
-      caracteristicas: [
-        "Chapa de ferro fundido maciço de alta resistência.",
-        "Câmara aberta de alta capacidade com grelha em ferro fundido.",
-        "Estrutura em Aço Carbono 1,2 mm com interior em Inox.",
-        "Isolamento em Lã de Rocha para segurança e eficiência.",
-        "Moldura das Portas em Alumínio Fundido.",
-        "Pintura Eletrostática resistente a intempéries.",
-        "Saída de chaminé em 4 posições configuráveis.",
-        "Regulagem de entrada de ar para controle da chama.",
-        "Pés reforçados para superfícies irregulares.",
-        "Construção robusta para uso ao ar livre e em ambientes rurais.",
-      ],
-      mensagemWhatsApp:
-        "Olá! Gostaria de informações sobre o Fogão Campeiro Loren 1.",
-    },
-    {
-      id: "camp-loren2",
-      nome: "Fogão Campeiro Loren 2",
-      categoria: "Fogões Campeiros",
-      descricao:
-        "Fogão campeiro a lenha Loren 2 de médio porte. Mais espaço de cozimento para churrascos, eventos em propriedades rurais e cozinhas de rancho que recebem muita gente.",
-      imagens: [
-        "assets/img/produtos/campeiro/camp-loren2-frente.jpg",
-        "assets/img/produtos/campeiro/camp-loren2-lateral.jpg",
-        "assets/img/produtos/campeiro/camp-loren2-topo.jpg",
-        "assets/img/produtos/campeiro/camp-loren2-detalhe.jpg",
-      ],
-      especificacoes: {
-        Modelo: "Campeiro Loren 2",
-        Tipo: "A lenha",
-        "Saídas da Chaminé":
-          "Atrás: lado esquerdo / Atrás: lado direito / Na chapa: lado esquerdo / Na chapa: lado direito",
-        Chapa: "Ferro fundido maciço – espessura reforçada",
-        "Diâmetro da Chaminé": "Ø 150 mm",
-        "Dimensões (A x L x P)": "83 x 85 x 62 cm",
-        Peso: "72 kg",
-        Pintura: "Eletrostática",
-        Acabamento: "Preto fosco resistente a intempéries",
-        "Material da Fornalha": "Câmara ampliada com grelha em ferro fundido",
-        "Tamanho da Fornalha (A x L x P)": "16 x 26 x 40 cm",
-        "Estrutura Externa": "Aço carbono 1,2 mm",
-        "Estrutura Interna": "Inox",
-        "Isolamento Interno": "Lã de rocha",
-        "Moldura das Portas": "Alumínio fundido",
-      },
-      caracteristicas: [
-        "Chapa de ferro fundido maciço com espessura reforçada.",
-        "Câmara ampliada para maior volume de lenha e calor.",
-        "Grelha interna em ferro fundido de alta resistência.",
-        "Estrutura em Aço Carbono 1,2 mm com interior em Inox.",
-        "Isolamento em Lã de Rocha.",
-        "Moldura das Portas em Alumínio Fundido.",
-        "Pintura Eletrostática resistente a intempéries.",
-        "Saída de chaminé em 4 posições configuráveis.",
-        "Regulagem de entrada de ar para controle preciso da chama.",
-        "Pés reforçados para estabilidade em qualquer superfície.",
-      ],
-      mensagemWhatsApp:
-        "Preciso de um orçamento para o Fogão Campeiro Loren 2.",
-    },
-    {
-      id: "camp-loren3",
-      nome: "Fogão Campeiro Loren 3",
-      categoria: "Fogões Campeiros",
-      descricao:
-        "O maior fogão campeiro da linha TERRIBILE. Loren 3 com chapa de ferro fundido reforçada e câmara de combustão extra ampla — ideal para grandes eventos, rodeios e cozinhas rurais de alto volume.",
-      imagens: [
-        "assets/img/produtos/campeiro/camp-loren3-frente.jpg",
-        "assets/img/produtos/campeiro/camp-loren3-lateral.jpg",
-        "assets/img/produtos/campeiro/camp-loren3-topo.jpg",
-        "assets/img/produtos/campeiro/camp-loren3-detalhe.jpg",
-      ],
-      especificacoes: {
-        Modelo: "Campeiro Loren 3",
-        Tipo: "A lenha",
-        "Saídas da Chaminé":
-          "Atrás: lado esquerdo / Atrás: lado direito / Na chapa: lado esquerdo / Na chapa: lado direito",
-        Chapa: "Ferro fundido reforçado – alta espessura",
-        "Diâmetro da Chaminé": "Ø 200 mm",
-        "Dimensões (A x L x P)": "87 x 105 x 72 cm",
-        Peso: "95 kg",
-        Pintura: "Eletrostática",
-        Acabamento: "Preto fosco resistente a intempéries",
-        "Material da Fornalha":
-          "Câmara extra ampla com grelha em ferro fundido reforçado",
-        "Tamanho da Fornalha (A x L x P)": "18 x 34 x 52 cm",
-        "Estrutura Externa": "Aço carbono 1,2 mm",
-        "Estrutura Interna": "Inox",
-        "Isolamento Interno": "Lã de rocha",
-        "Moldura das Portas": "Alumínio fundido",
-      },
-      caracteristicas: [
-        "Chapa de ferro fundido reforçado de alta espessura.",
-        "Câmara de combustão extra ampla para alto volume de produção.",
-        "Grelha interna em ferro fundido reforçado.",
-        "Estrutura em Aço Carbono 1,2 mm com interior em Inox.",
-        "Isolamento em Lã de Rocha para eficiência e segurança.",
-        "Moldura das Portas em Alumínio Fundido.",
-        "Pintura Eletrostática resistente a intempéries.",
-        "Suporta panelões, tachos e recipientes de grande porte.",
-        "Saída de chaminé em 4 posições configuráveis.",
-        "Pés extra reforçados para estabilidade em qualquer terreno.",
-      ],
-      mensagemWhatsApp: "Gostaria de saber sobre o Fogão Campeiro Loren 3.",
     },
   ],
 
   // ====================================
   // CATEGORIA 5: ACESSÓRIOS E PEÇAS
   // ====================================
-  acessorios: [
+  /*acessorios: [
     {
       id: "trempe-ferro-fundido",
       nome: "Trempe Ferro Fundido",
@@ -965,6 +774,9 @@ const produtosData = {
         "Pintura Eletrostática com acabamento preto fosco durável.",
         "Compatível com toda a linha TERRIBILE.",
         "Peso e espessura ideais para estabilidade máxima.",
+      ],
+      frase: [
+        "Peça original TERRIBILE — desenvolvida para durar tanto quanto o seu fogão, com a resistência do ferro fundido e o acabamento que você já conhece.",
       ],
       mensagemWhatsApp:
         "Olá! Gostaria de informações sobre a Trempe de Ferro Fundido TERRIBILE.",
@@ -997,6 +809,9 @@ const produtosData = {
         "Acabamento premium compatível com todos os gabinetes TERRIBILE.",
         "Resistente à corrosão e à umidade da cozinha.",
       ],
+      frase: [
+        "Reposição original com o mesmo padrão de acabamento do seu fogão — porque cada detalhe da TERRIBILE é desenvolvido para durar.",
+      ],
       mensagemWhatsApp:
         "Preciso de informações sobre o Puxador de Forno Inox TERRIBILE.",
     },
@@ -1027,6 +842,9 @@ const produtosData = {
         "Fácil limpeza com pano umedecido.",
         "Substituição direta sem ferramentas especiais.",
         "Compatível com toda a linha de fogões TERRIBILE com gabinete.",
+      ],
+      frase: [
+        "Veja o ponto perfeito sem perder o calor — o visor vitrocerâmico TERRIBILE une segurança e praticidade para que cada assado saia exatamente como você planejou.",
       ],
       mensagemWhatsApp:
         "Olá! Quero informações sobre o Visor Vitrocerâmico para Forno TERRIBILE.",
@@ -1059,10 +877,13 @@ const produtosData = {
         "Compatível com toda a linha TERRIBILE.",
         "Ideal para manutenção preventiva anual.",
       ],
+      frase: [
+        "Cuide do seu fogão com peças de quem o fabricou — o Kit Manutenção Completo TERRIBILE garante mais anos de performance e o mesmo padrão de qualidade desde o primeiro dia.",
+      ],
       mensagemWhatsApp:
         "Gostaria de um orçamento para o Kit Manutenção Completo TERRIBILE.",
     },
-  ],
+  ],*/
 };
 
 // ========================================

@@ -29,7 +29,6 @@
       "fogoes-vitroceramica": "Vitrocerâmica",
       "fogoes-aluminio": "Alumínio",
       "fogoes-ferro": "Ferro",
-      "fogoes-campeiros": "Campeiros",
       "acessorios-fogao": "Acessórios",
     };
     return map[urlKey] || null;
