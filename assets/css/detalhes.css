@@ -184,6 +184,9 @@
   transition: var(--transition-base);
   padding: 0;
   overflow: visible;
+  /* Remove o ícone de fogo placeholder dos thumbs */
+  font-size: 0;
+  display: block;
 }
 
 .product-gallery__thumbnail:hover {
@@ -204,14 +207,6 @@
 /* Esconde a imagem dentro do thumbnail */
 .product-gallery__thumbnail img {
   display: none;
-}
-
-/* Remove o ícone de fogo placeholder dos thumbs */
-.product-gallery__thumbnail {
-  font-size: 0;
-  display: block;
-  align-items: center;
-  justify-content: center;
 }
 
 /* ============================================
@@ -302,6 +297,7 @@
   padding: var(--spacing-sm);
   border-radius: 8px;
   border-left: 4px solid var(--color-primary);
+  /* Linha central decorativa no desktop (2 colunas) */
   background:
     linear-gradient(var(--color-gray), var(--color-gray)) center /
       2px 100% no-repeat,
@@ -433,6 +429,7 @@
   z-index: 1000;
 }
 
+/* Desktop: botão de retorno fixo no canto superior esquerdo */
 .actions-flutuante2 {
   position: fixed;
   top: 6rem;
@@ -608,6 +605,10 @@
   }
 }
 
+/* =================================================
+   TABLET (≤ 1024px)
+================================================= */
+
 @media (max-width: 1024px) {
   .product-detail__grid {
     grid-template-columns: 1fr;
@@ -640,14 +641,31 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  /* Grid vai para 1 coluna — remove a linha central do background */
   .product-specs__grid {
     grid-template-columns: 1fr;
+    background: var(--color-off-white);
   }
 
   .product-info-cards {
     grid-template-columns: 1fr;
   }
+
+  /* Botão de retorno: aproxima da borda sem cobrir conteúdo */
+  .actions-flutuante2 {
+    top: 5rem;
+    left: 1rem;
+  }
+
+  .actions-flutuante2 .btn--return {
+    padding: 0.625rem 1rem;
+    font-size: 0.9375rem;
+  }
 }
+
+/* =================================================
+   MOBILE (≤ 768px)
+================================================= */
 
 @media (max-width: 768px) {
   .breadcrumb-section {
@@ -684,6 +702,11 @@
     font-size: 1.5rem;
   }
 
+  /* Nav da galeria sempre visível no mobile (sem hover) */
+  .product-gallery__main .product-gallery__nav {
+    opacity: 1;
+  }
+
   .product-features__list {
     grid-template-columns: 1fr;
   }
@@ -701,6 +724,7 @@
     white-space: nowrap;
   }
 
+  /* Botão flutuante de orçamento: ocupa toda a base */
   .actions-flutuante {
     bottom: 1rem;
     right: 1rem;
@@ -712,10 +736,33 @@
     font-size: 1rem;
   }
 
-  .product-specs__grid{
-    background-color: var(--color-off-white);
+  /* Specs: grid vai para 1 coluna — remove a linha central do background */
+  .product-specs__grid {
+    background: var(--color-off-white);
+  }
+
+  /* Botão de retorno: sai do fixed e vira inline abaixo do breadcrumb */
+  .actions-flutuante2 {
+    position: static;
+    margin: 0.75rem var(--spacing-sm) 0;
+  }
+
+  .actions-flutuante2 .product-actions {
+    box-shadow: none;
+    border-radius: 4px;
+  }
+
+  .actions-flutuante2 .btn--return {
+    width: 100%;           /* largura total — fácil de tocar */
+    padding: 1rem 1.5rem;  /* mesmo conforto dos outros botões */
+    font-size: 1rem;
+    text-align: center;
   }
 }
+
+/* =================================================
+   MOBILE PEQUENO (≤ 480px)
+================================================= */
 
 @media (max-width: 480px) {
   .actions-flutuante {

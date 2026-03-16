@@ -70,7 +70,6 @@
   background: var(--color-gray);
   color: var(--color-off-white);
   box-shadow: var(--shadow-md);
-  position: absolute;
   overflow: hidden;
   z-index: 10;
 }
