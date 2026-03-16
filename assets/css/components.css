@@ -66,6 +66,15 @@
   transform: translateY(-2px);
 }
 
+.btn--return {
+  background: var(--color-gray);
+  color: var(--color-off-white);
+  box-shadow: var(--shadow-md);
+  position: absolute;
+  overflow: hidden;
+  z-index: 10;
+}
+
 .btn--view {
   flex: 1;
   padding: 0.875rem;
@@ -158,10 +167,11 @@
   background: var(--color-white);
   border: 3px solid var(--color-gray-light);
   transition: all var(--transition-base);
-  overflow: hidden;
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
 }
 
 .product-card img {
@@ -176,6 +186,7 @@
   box-shadow: var(--shadow-xl);
 }
 
+/* Mantém overflow:hidden só na imagem (para o efeito de scale) */
 .product-card__image {
   height: 250px;
   background: var(--color-black);
@@ -208,8 +219,14 @@
   font-size: 4rem;
 }
 
+/* Info como coluna flex — precisa de position:relative para ancorar a descrição absoluta */
 .product-card__info {
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  overflow: visible;
 }
 
 .product-card__category {
@@ -229,62 +246,25 @@
   color: var(--color-black);
 }
 
-.product-card__description {
-  color: var(--color-gray);
-  font-size: 0.9375rem;
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
-}
-
-.product-card__actions {
-  display: flex;
-  gap: 0.75rem;
-}
-
-/* === PRODUCT CARD - botões alinhados + descrição expansível === */
-
-/* 1. Card como coluna flex */
-.product-card {
-  overflow: visible; /* permite a descrição expandir sobre os botões */
-  display: flex;
-  flex-direction: column;
-}
-
-/* Mantém overflow:hidden só na imagem (para o efeito de scale) */
-.product-card__image {
-  overflow: hidden;
-}
-
-/* 2. Info como coluna flex */
-.product-card__info {
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  position: relative;
-  overflow: visible;
-}
-
-/* 3. Descrição: travada em 6 linhas */
+/* Descrição: travada em 5 linhas, reserva espaço no fluxo */
 .product-card__description {
   color: var(--color-gray);
   font-size: 0.9375rem;
   line-height: 1.6;
   margin-bottom: 0;
-
   display: -webkit-box;
   -webkit-line-clamp: 5;
   line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
-
-  position: relative;
-  z-index: 2;
   background: var(--color-white);
-  transition: box-shadow 0.25s ease;
+  transition:
+    box-shadow 0.25s ease,
+    border 0.25s ease;
+  z-index: 2;
 }
 
-/* 4. Botões sempre no fundo */
+/* Botões sempre no fundo */
 .product-card__actions {
   display: flex;
   gap: 0.75rem;
@@ -293,43 +273,6 @@
   position: relative;
   z-index: 1;
   background: var(--color-white);
-}
-
-/* 5. Hover/toque: expande sobre os botões */
-.product-card:hover .product-card__description {
-  -webkit-line-clamp: unset;
-  line-clamp: unset;
-  overflow: visible;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
-
-/* ============================================
-   STATS
-   ============================================ */
-
-.stat {
-  background: rgba(26, 26, 26, 0.9);
-  border-left: 4px solid var(--color-primary);
-  padding: 1.5rem;
-  text-align: center;
-}
-
-.stat__number {
-  font-family: var(--font-primary);
-  font-size: 3rem;
-  font-weight: 900;
-  color: var(--color-primary);
-  line-height: 1;
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-.stat__label {
-  font-size: 0.875rem;
-  color: var(--color-gray-light);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-weight: 600;
 }
 
 /* ============================================
@@ -347,6 +290,13 @@
 .differential__icon {
   font-size: 3rem;
   margin: 0 auto 1rem;
+  color: var(--color-primary);
+}
+
+/* Ícones Bootstrap dentro do differential */
+.differential__icon i {
+  font-size: 3rem;
+  color: var(--color-primary);
 }
 
 .differential__title {
@@ -460,6 +410,48 @@
 }
 
 /* ============================================
+   STATS
+   ============================================ */
+
+.stat {
+  background: rgba(26, 26, 26, 0.9);
+  border-left: 4px solid var(--color-primary);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.stat__number {
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--color-primary);
+  line-height: 1;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.stat__label {
+    font-size: 0.875rem;
+  color: var(--color-gray-light);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+/* Variante usada na linha do tempo (sobre.html) */
+.stat--timeline {
+  border-radius: 8px;
+  text-align: left;
+}
+
+.stat--timeline p {
+  color: var(--color-gray-light);
+  margin-top: 0.75rem;
+  font-size: 0.9375rem;
+  margin-bottom: 0;
+}
+
+/* ============================================
    FILTERS
    ============================================ */
 
@@ -485,7 +477,14 @@
 .filters__buttons {
   display: flex;
   gap: 1rem;
-  flex-wrap: wrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 0.5rem; /* espaço para a scrollbar não sobrepor os botões */
+  scrollbar-width: none; /* Firefox: esconde scrollbar mas mantém scroll */
+}
+
+.filters__buttons::-webkit-scrollbar {
+  display: none; /* Chrome/Safari: esconde scrollbar mas mantém scroll */
 }
 
 .filter-btn {
@@ -498,6 +497,8 @@
   text-transform: uppercase;
   cursor: pointer;
   transition: all var(--transition-fast);
+  white-space: nowrap; /* cada botão fica em uma linha, o container rola */
+  flex-shrink: 0;
 }
 
 .filter-btn:hover {
@@ -600,15 +601,10 @@
     font-size: 2.5rem;
   }
 
-  /* Filtros */
-  .filters__buttons {
-    gap: 0.75rem;
-  }
-
+  /* Filtros: já usa overflow-x:auto, apenas reduz fonte no mobile */
   .filter-btn {
     padding: 0.625rem 1rem;
     font-size: 0.875rem;
-    white-space: nowrap;
   }
 
   /* Cards de contato */
@@ -634,6 +630,22 @@
   .differential__description {
     font-size: 0.9375rem;
     line-height: 1.7;
+  }
+
+  /* No mobile não existe hover — mostra a descrição completa por padrão */
+  .product-card__description {
+    -webkit-line-clamp: unset;
+    line-clamp: unset;
+    overflow: visible;
+  }
+
+  /* Desativa o translateY do card no mobile (hover em touch é instável) */
+  .product-card:hover {
+    transform: none;
+  }
+
+  .product-card:hover .product-card__image img {
+    transform: none;
   }
 }
 

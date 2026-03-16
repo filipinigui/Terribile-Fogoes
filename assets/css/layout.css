@@ -202,6 +202,12 @@
   object-fit: cover;
 }
 
+.hero__visual-item :hover {
+  overflow: hidden;
+
+  transform: scale(110%);
+}
+
 /* Stats: absolutas sobre o fundo escuro no desktop */
 .hero__stats {
   position: absolute;
@@ -357,6 +363,12 @@
   color: var(--color-gray);
 }
 
+/* Modificador para usar hero__stats fora do hero (ex: sobre.html)
+   Evita inline style que bloquearia as media queries de responsividade */
+.hero__stats--static {
+  position: static !important;
+}
+
 /* =================================================
    TABLET (≤ 1024px)
 ================================================= */
@@ -406,6 +418,10 @@
 ================================================= */
 
 @media (max-width: 768px) {
+  /* Reduz o padding das seções em mobile */
+  .section {
+    padding: var(--spacing-lg) var(--spacing-sm);
+  }
   .navbar__toggle {
     display: flex;
   }

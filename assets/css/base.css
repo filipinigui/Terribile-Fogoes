@@ -18,6 +18,7 @@
   --color-gray-light: #E5E5E5;
   --color-white: #FFFFFF;
   --color-off-white: #F8F8F8;
+  --color-gray-transparent: rgba(71, 62, 62, 0.568);
   
   /* Gradients */
   --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);

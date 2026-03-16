@@ -320,7 +320,7 @@
 }
 
 .product-specs__label {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   color: var(--color-gray);
   font-weight: 600;
   text-transform: uppercase;
@@ -430,6 +430,13 @@
   position: fixed;
   bottom: 2rem;
   right: 2rem;
+  z-index: 1000;
+}
+
+.actions-flutuante2 {
+  position: fixed;
+  top: 6rem;
+  left: 1.5rem;
   z-index: 1000;
 }
 
@@ -651,6 +658,10 @@
     height: 400px !important;
   }
 
+  .product-gallery__placeholder {
+    font-size: 6rem;
+  }
+
   .product-gallery__thumbnails {
     gap: 0.625rem;
     padding: 0.625rem 1.125rem;
@@ -699,6 +710,10 @@
   .product-actions .btn {
     padding: 1rem 1.5rem;
     font-size: 1rem;
+  }
+
+  .product-specs__grid{
+    background-color: var(--color-off-white);
   }
 }
 

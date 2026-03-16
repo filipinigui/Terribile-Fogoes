@@ -263,7 +263,7 @@
       }
 
       descHtml +=
-        '<p style="margin-top:1rem;">Fabricados com dedicação em Aratiba-RS, nossos fogões são sinônimo de qualidade, funcionalidade e do calor acolhedor que só um produto feito com paixão pode oferecer.</p>';
+        '<p style="margin-top:1rem;">'+product.frase+'</p>';
       tabContents[0].innerHTML = descHtml;
     }
 
