@@ -120,7 +120,7 @@ const produtosData = {
       descricao:
         "Fogão a lenha com sistema exclusivo de dupla combustão e chapa vitrocerâmica. Maior aproveitamento da lenha, redução de fumaça e eficiência energética superior.",
       imagens: [
-        "assets/img/produtos/vitroceramica/dupla-frente.jpg",
+        "assets/img/produtos/destaque/fog4.jpeg",
         "assets/img/produtos/vitroceramica/dupla-lateral.jpg",
         "assets/img/produtos/vitroceramica/dupla-topo.jpg",
         "assets/img/produtos/vitroceramica/dupla-detalhe.jpg",
@@ -176,7 +176,7 @@ const produtosData = {
       descricao:
         "Descubra a união perfeita entre eficiência e design imponente com o Fogão Loren nº1 Gabinete Vitrocerâmica. Este modelo exclusivo não só eleva o padrão da sua cozinha com sua chapa de cerâmica de aquecimento intenso e consumo otimizado de lenha, mas também oferece uma solução elegante e prática com seu gabinete integrado para armazenar lenha, garantindo desempenho superior e um visual sofisticado.",
       imagens: [
-        "assets/img/produtos/vitroceramica/vitroceramica-lorem1-gabinete.png",
+        "/assets/img/produtos/vitroceramica/vitroceramica-lorem1-gabinete.jpeg",
         "assets/img/produtos/vitroceramica/gabinete1-lateral.jpg",
         "assets/img/produtos/vitroceramica/gabinete1-aberto.jpg",
         "assets/img/produtos/vitroceramica/gabinete1-detalhe.jpg",
