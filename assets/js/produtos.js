@@ -176,7 +176,7 @@ const produtosData = {
       descricao:
         "Descubra a união perfeita entre eficiência e design imponente com o Fogão Loren nº1 Gabinete Vitrocerâmica. Este modelo exclusivo não só eleva o padrão da sua cozinha com sua chapa de cerâmica de aquecimento intenso e consumo otimizado de lenha, mas também oferece uma solução elegante e prática com seu gabinete integrado para armazenar lenha, garantindo desempenho superior e um visual sofisticado.",
       imagens: [
-        "/assets/img/produtos/vitroceramica/loren-n1-gab.jpeg",
+        "assets/img/produtos/vitroceramica/loren-n1-gab.jpeg",
         "assets/img/produtos/vitroceramica/gab-1.jpeg",
         "assets/img/produtos/vitroceramica/gabinete1-aberto.jpg",
         "assets/img/produtos/vitroceramica/gabinete1-detalhe.jpg",
