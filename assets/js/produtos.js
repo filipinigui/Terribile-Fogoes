@@ -67,8 +67,8 @@ const produtosData = {
       descricao:
         "Eleve sua experiência culinária e o conforto do seu lar com o Fogão Loren nº2 Vitrocerâmica, onde a eficiência encontra um design sofisticado e funcionalidade ampliada. Com sua chapa vitrocerâmica de alta performance, este fogão não só garante um aquecimento intenso e uniforme para suas receitas, mas também se destaca pelo seu forno generosamente ampliado, perfeito para grandes preparos ou para aquecer ambientes espaçosos com uma eficiência térmica notável. Tudo isso, mantendo um consumo de lenha surpreendentemente baixo em comparação com os modelos tradicionais.",
       imagens: [
-        "assets/img/produtos/vitroceramica/vitroceramica-lorem2-gabinete.png .png",
-        "assets/img/produtos/vitroceramica/vitroceramica-lorem2-gabinete2.png",
+        "assets/img/produtos/vitroceramica/loren-n2.jpeg",
+        "assets/img/produtos/vitroceramica/",
         "assets/img/produtos/vitroceramica/fogao2-topo.jpg",
         "assets/img/produtos/vitroceramica/fogao2-detalhe.jpg",
       ],
@@ -111,7 +111,7 @@ const produtosData = {
         "Fabricados com dedicação, nossos fogões são sinônimo de qualidade, funcionalidade e do calor acolhedor que só um produto feito com paixão pode oferecer, agora com ainda mais capacidade para suas necessidades.",
       ],
       mensagemWhatsApp:
-        "Olá! Gostaria de um orçamento para o Fogão Loren 2 Vitrocerâmica.",
+        "Olá! Gostaria de mais informações sobre o Fogão Loren 2 Vitrocerâmica.",
     },
     {
       id: "vitro-duplacombustao",
@@ -167,7 +167,7 @@ const produtosData = {
         "Descubra a inovação culinária com nosso fogão de Dupla Combustão, que une o melhor da tecnologia e tradição. Equipado com uma chapa vitrocerâmica de alto desempenho, ele garante aquecimento intenso e uniforme, otimizando o consumo de lenha. O porta-lenha embutido oferece praticidade e um toque de imponência ao design. A grande estrela é o sistema de Dupla Combustão, que maximiza a eficiência energética e reduz a emissão de fumaça, proporcionando uma queima mais limpa e potente. E para suas receitas, conte com um forno espaçoso e incrivelmente eficiente, que aquece por todos os lados, assegurando um cozimento perfeito e homogêneo.",
       ],
       mensagemWhatsApp:
-        "Gostaria de saber mais sobre o Fogão Dupla Combustão Vitrocerâmico.",
+        "Olá! Gostaria de mais informações sobre o Fogão Dupla Combustão Vitrocerâmica.",
     },
     {
       id: "vitro-loren1-gabinete",
@@ -176,8 +176,8 @@ const produtosData = {
       descricao:
         "Descubra a união perfeita entre eficiência e design imponente com o Fogão Loren nº1 Gabinete Vitrocerâmica. Este modelo exclusivo não só eleva o padrão da sua cozinha com sua chapa de cerâmica de aquecimento intenso e consumo otimizado de lenha, mas também oferece uma solução elegante e prática com seu gabinete integrado para armazenar lenha, garantindo desempenho superior e um visual sofisticado.",
       imagens: [
-        "/assets/img/produtos/vitroceramica/vitroceramica-lorem1-gabinete.jpeg",
-        "assets/img/produtos/vitroceramica/gabinete1-lateral.jpg",
+        "/assets/img/produtos/vitroceramica/loren-n1-gab.jpeg",
+        "assets/img/produtos/vitroceramica/gab-1.jpeg",
         "assets/img/produtos/vitroceramica/gabinete1-aberto.jpg",
         "assets/img/produtos/vitroceramica/gabinete1-detalhe.jpg",
       ],
@@ -221,7 +221,7 @@ const produtosData = {
         "Fabricados com dedicação e paixão, nossos fogões são sinônimo de qualidade superior, funcionalidade inteligente e do calor acolhedor que transforma sua cozinha em um verdadeiro lar.",
       ],
       mensagemWhatsApp:
-        "Olá! Gostaria de um orçamento para o Fogão Loren 1 Vitrocerâmica com Gabinete.",
+        "Olá! Gostaria de mais informações sobre o Fogão Loren 1 Vitrocerâmica com Gabinete.",
     },
     {
       id: "vitro-loren2-gabinete",
@@ -231,7 +231,7 @@ const produtosData = {
         "Este modelo é a união perfeita de eficiência, design imponente e funcionalidade superior, tornando-se o destaque de qualquer espaço. Com sua chapa vitrocerâmica de alta performance, ele garante um aquecimento intenso e uniforme, ideal para suas criações culinárias. O grande diferencial é o seu gabinete integrado para armazenar lenha, que não só oferece praticidade incomparável ao manter a lenha sempre à mão, mas também confere ao fogão uma presença grandiosa e sofisticada. Além disso, conte com um forno generosamente ampliado, perfeito para grandes preparos ou para aquecer ambientes espaçosos com uma eficiência térmica notável, tudo isso mantendo um consumo de lenha surpreendentemente baixo em comparação com os modelos tradicionais.",
       imagens: [
         "assets/img/produtos/vitroceramica/vitroceramica-lorem2-gabinete2.jpeg",
-        "assets/img/produtos/vitroceramica/vitroceramica-lorem2-gabinete.png .png",
+        "assets/img/produtos/vitroceramica/",
         "assets/img/produtos/vitroceramica/gabinete2-aberto.jpg",
         "assets/img/produtos/vitroceramica/gabinete2-uso.jpg",
       ],
@@ -277,7 +277,7 @@ const produtosData = {
         "Fabricados com dedicação, nossos fogões são sinônimo de qualidade, funcionalidade e do calor acolhedor que só um produto feito com paixão pode oferecer, agora com ainda mais capacidade e presença para suas necessidades",
       ],
       mensagemWhatsApp:
-        "Preciso de um orçamento para o Fogão Loren 2 Vitrocerâmica com Gabinete.",
+        "Olá! Gostaria de mais informações sobre o Fogão Loren gabinete 2 Vitrocerâmica.",
     },
   ],
 
@@ -339,7 +339,7 @@ const produtosData = {
         "Mais espaço, mais potência e o mesmo acabamento premium que só a TERRIBILE oferece — o Fogão Loren 2 Alumínio é perfeito para quem precisa cozinhar para mais pessoas com praticidade e estilo.",
       ],
       mensagemWhatsApp:
-        "Preciso de um orçamento para o Fogão Loren 2 de Alumínio.",
+        "Olá! Gostaria de mais informações sobre o Fogão Loren 2 Alumínio.",
     },
     {
       id: "al-loren2-gabinete",
@@ -397,7 +397,7 @@ const produtosData = {
         "A solução mais completa da linha alumínio TERRIBILE — forno amplo, porta-lenha integrado e chapa anodizada de alta resistência para uma cozinha que produz mais com mais elegância.",
       ],
       mensagemWhatsApp:
-        "Quero um orçamento para o Fogão Loren 2 Alumínio com Gabinete.",
+        "Olá! Gostaria de mais informações sobre o Fogão Loren 2 Alumínio com Gabinete.",
     },
   ],
 
@@ -459,7 +459,7 @@ const produtosData = {
         "Mais potência e mais área de cozimento — o Fogão Loren 2 Ferro combina a inércia térmica superior do ferro fundido com o acabamento e a confiabilidade que são marca registrada da TERRIBILE.",
       ],
       mensagemWhatsApp:
-        "Preciso de um orçamento para o Fogão Loren 2 de Ferro Fundido.",
+        "Olá! Gostaria de mais informações sobre o Fogão Loren 2 Ferro Fundido.",
     },
     {
       id: "fe-loren2-gabinete",
@@ -518,7 +518,7 @@ const produtosData = {
         "Performance comercial com acabamento artesanal — o Fogão Loren 2 Ferro com Gabinete foi projetado para cozinhas que não param, com câmara ampliada, forno espaçoso e a resistência inigualável do ferro fundido.",
       ],
       mensagemWhatsApp:
-        "Preciso de detalhes sobre o Fogão Loren 2 de Ferro com Gabinete.",
+        "Olá! Gostaria de mais informações sobre o Fogão Loren 2 Ferro com Gabinete.",
     },
   ],
 };
