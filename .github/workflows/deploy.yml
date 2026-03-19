@@ -24,6 +24,6 @@ jobs:
               --exclude .git \
               --exclude .github \
               --exclude CNAME \
-              ./ /public_html/;
+              ./ public_html/;
             bye
           "
