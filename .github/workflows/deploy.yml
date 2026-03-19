@@ -20,7 +20,11 @@ jobs:
             set ftp:ssl-allow no;
             set ssl:verify-certificate no;
             open -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASS }} ${{ secrets.FTP_HOST }};
-            pwd;
-            ls -la;
+            cd public_html;
+            mirror -R --delete --verbose \
+              --exclude .git \
+              --exclude .github \
+              --exclude CNAME \
+              ./ ./;
             bye
           "
