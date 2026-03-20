@@ -30,7 +30,9 @@ jobs:
           log-level: verbose
 
           exclude: |
-            **/.git*
-            **/.github/**
-            **/node_modules/**
-            **/.vscode/**
+  .git
+  .git/**
+  .github
+  .github/**
+  node_modules/**
+  .vscode/**
