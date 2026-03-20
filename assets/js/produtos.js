@@ -17,7 +17,7 @@ const produtosData = {
         "assets/img/produtos/vitroceramica/vitroceramica-lorem1.jpeg",
         "assets/img/produtos/vitroceramica/fogao1-lateral.jpg",
         "assets/img/produtos/vitroceramica/fogao1-topo.jpg",
-        "assets/img/produtos/vitroceramica/fogao1-detalhe.jpg",
+        "assets/img/produtos/vitroceramica/n1-grafico.jpeg",
       ],
       especificacoes: {
         Modelo: "LOREN N1",
@@ -70,7 +70,7 @@ const produtosData = {
         "assets/img/produtos/vitroceramica/loren-n2.jpeg",
         "assets/img/produtos/vitroceramica/",
         "assets/img/produtos/vitroceramica/fogao2-topo.jpg",
-        "assets/img/produtos/vitroceramica/fogao2-detalhe.jpg",
+        "assets/img/produtos/vitroceramica/n2-grafico.jpeg",
       ],
       especificacoes: {
         Modelo: "LOREN N2",
@@ -123,7 +123,7 @@ const produtosData = {
         "assets/img/produtos/destaque/fog4.jpeg",
         "assets/img/produtos/vitroceramica/dupla-lateral.jpg",
         "assets/img/produtos/vitroceramica/dupla-topo.jpg",
-        "assets/img/produtos/vitroceramica/dupla-detalhe.jpg",
+        "assets/img/produtos/vitroceramica/dupla-grafico.jpeg",
       ],
       especificacoes: {
         Modelo: "FOGÃO DUPLA COMBUSTÃO",
@@ -179,7 +179,7 @@ const produtosData = {
         "assets/img/produtos/vitroceramica/loren-n1-gab.jpeg",
         "assets/img/produtos/vitroceramica/gab-1.jpeg",
         "assets/img/produtos/vitroceramica/gabinete1-aberto.jpg",
-        "assets/img/produtos/vitroceramica/gabinete1-detalhe.jpg",
+        "assets/img/produtos/vitroceramica/n1-grafico-gabinete.jpeg",
       ],
       especificacoes: {
         Modelo: "LOREN N1 COM GABINETE",
@@ -233,7 +233,7 @@ const produtosData = {
         "assets/img/produtos/vitroceramica/vitroceramica-lorem2-gabinete2.jpeg",
         "assets/img/produtos/vitroceramica/",
         "assets/img/produtos/vitroceramica/gabinete2-aberto.jpg",
-        "assets/img/produtos/vitroceramica/gabinete2-uso.jpg",
+        "assets/img/produtos/vitroceramica/n2-grafico-gabinete.jpeg",
       ],
       especificacoes: {
         Modelo: "LOREN N2 COM GABINETE",
