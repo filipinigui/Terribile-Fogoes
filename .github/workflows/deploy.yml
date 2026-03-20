@@ -23,14 +23,14 @@ jobs:
           port: 21
           protocol: ftp
 
-          local-dir: ./   # OK
-          server-dir: /www/  # CORRETO no teu caso
+          local-dir: ./
+          server-dir: /www/
 
           state-name: .ftp-deploy-sync-state.json
           log-level: verbose
 
           exclude: |
-            **/.git*
-            **/.github/**
-            **/node_modules/**
-            **/.vscode/**
+  **/.git*
+  **/.github/**
+  **/node_modules/**
+  **/.vscode/**
