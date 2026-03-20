@@ -295,7 +295,7 @@ const produtosData = {
         "assets/img/produtos/aluminio/fogao2-frente.jpg",
         "assets/img/produtos/aluminio/fogao2-lateral.jpg",
         "assets/img/produtos/aluminio/fogao2-topo.jpg",
-        "assets/img/produtos/aluminio/fogao2-uso.jpg",
+        "assets/img/produtos/aluminio/n2-grafico-al.jpeg",
       ],
       especificacoes: {
         Modelo: "LOREN N2 ALUMÍNIO",
@@ -351,7 +351,7 @@ const produtosData = {
         "assets/img/produtos/aluminio/cooktop-frente.jpg",
         "assets/img/produtos/aluminio/cooktop-topo.jpg",
         "assets/img/produtos/aluminio/cooktop-lateral.jpg",
-        "assets/img/produtos/aluminio/cooktop-instalado.jpg",
+        "assets/img/produtos/aluminio/n2-grafico-al-gab.jpeg",
       ],
       especificacoes: {
         Modelo: "LOREN N2 ALUMÍNIO COM GABINETE",
