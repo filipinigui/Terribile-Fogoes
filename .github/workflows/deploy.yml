@@ -11,9 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Baixa o código do repositório
       - name: Baixar código do repositório
         uses: actions/checkout@v4
 
+      # Deploy via FTP
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
@@ -23,12 +25,19 @@ jobs:
           port: 21
           protocol: ftp
 
-          local-dir: ./
+          # Pasta local com apenas os arquivos públicos do site
+          local-dir: dist/
+          
+          # Pasta do site no KingHost (certifique que já existe)
           server-dir: public_html/
 
+          # Arquivo para controlar o estado do deploy
           state-name: .ftp-deploy-sync-state.json
+
+          # Nível de logs
           log-level: verbose
 
+          # Evita subir arquivos desnecessários
           exclude: |
             .git
             .git/**
@@ -36,3 +45,5 @@ jobs:
             .github/**
             node_modules/**
             .vscode/**
+            README.md
+            *.yml
