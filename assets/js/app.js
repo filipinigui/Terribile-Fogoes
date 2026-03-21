@@ -190,7 +190,7 @@
    */
   function viewProduct(id) {
     var from = encodeURIComponent(window.location.href);
-    window.location.href = "produto-detalhes.html?id=" + id + "&from=" + from;
+    window.location.href = "produto-detalhes.html?id=" + id;
   }
 
   // Initialize when DOM is ready
