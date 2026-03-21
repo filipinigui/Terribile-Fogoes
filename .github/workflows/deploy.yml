@@ -24,7 +24,7 @@ jobs:
           protocol: ftp
 
           local-dir: ./
-          server-dir: ./
+          server-dir: www/
 
           state-name: .ftp-deploy-sync-state.json
           log-level: verbose
