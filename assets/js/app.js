@@ -178,7 +178,7 @@
    * Navigate to WhatsApp
    */
   function contactWhatsApp(message) {
-    message = message || "Olá! Gostaria de mais informações.";
+    message = message || "Olá! Gostaria de mais informações sobre os fogões.";
     const phone = "54999960180";
     const url =
       "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
