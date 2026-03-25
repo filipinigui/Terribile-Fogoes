@@ -235,6 +235,10 @@
 .section--light {
   background: var(--color-off-white);
 }
+
+.section--off-white{
+  background: var(--color-off-white);
+}
 .section--primary {
   background: var(--color-primary);
   color: var(--color-white);
@@ -363,8 +367,6 @@
   color: var(--color-gray);
 }
 
-/* Modificador para usar hero__stats fora do hero (ex: sobre.html)
-   Evita inline style que bloquearia as media queries de responsividade */
 .hero__stats--static {
   position: static !important;
 }

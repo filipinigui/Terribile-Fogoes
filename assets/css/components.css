@@ -56,6 +56,11 @@
   color: var(--color-white);
 }
 
+.btn--sobre {
+  margin-top: 3rem;
+  width: 100%;
+}
+
 .btn--secondary {
   background-color: var(--color-off-white);
   color: var(--color-black);
@@ -430,7 +435,7 @@
 }
 
 .stat__label {
-    font-size: 0.875rem;
+  font-size: 0.875rem;
   color: var(--color-gray-light);
   text-transform: uppercase;
   letter-spacing: 0.1em;
