@@ -569,6 +569,33 @@
 }
 
 /* =================================================
+   NOTEBOOK (≤ 1280px)
+================================================= */
+
+@media (max-width: 1280px) {
+  /* Botões: tamanho levemente reduzido */
+  .btn {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+  }
+
+  /* Stats: padding mais compacto */
+  .stat {
+    padding: 1.25rem 1rem;
+  }
+
+  /* Differential cards: padding compacto */
+  .differential {
+    padding: 1.75rem 1.25rem;
+  }
+
+  /* Category cards: oculta a descrição, mantém ícone, título e botão */
+  .category-card__description {
+    display: none;
+  }
+}
+
+/* =================================================
    MOBILE RESPONSIVE (≤ 768px)
 ================================================= */
 

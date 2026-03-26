@@ -225,7 +225,7 @@
 ================================================= */
 
 .section {
-  padding: var(--spacing-xl) var(--spacing-md);
+  padding: var(--spacing-lg) var(--spacing-md);
 }
 
 .section--dark {
@@ -247,11 +247,12 @@
 .section__container {
   max-width: 1400px;
   margin: auto;
+  margin-bottom: var(--spacing-sm);
 }
 
 .section__header {
   text-align: center;
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
 }
 
 .section__label {
@@ -272,6 +273,7 @@
   color: var(--color-gray);
   max-width: 700px;
   margin: auto;
+  margin-bottom: var(--spacing-sm);
 }
 
 /* =================================================
@@ -369,6 +371,114 @@
 
 .hero__stats--static {
   position: static !important;
+}
+
+/* =================================================
+   NOTEBOOK (≤ 1280px)
+================================================= */
+
+@media (max-width: 1280px) {
+  /* Navbar: reduz espaçamento entre links */
+  .navbar__menu {
+    gap: 1.6rem;
+  }
+
+  .navbar__link {
+    font-size: 1rem;
+  }
+
+  /* Hero: reduz altura do painel de imagens para caber sem cortar */
+  .hero__visual {
+    height: 480px;
+  }
+
+  /* Stats absolutas: muda para static para não sobrepor o conteúdo
+     em notebooks com altura de tela menor (ex. 768px) */
+  .hero__stats {
+    position: static;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md) var(--spacing-md);
+  }
+
+  /* Remove padding-bottom do hero para dar espaço às stats */
+  .hero {
+    padding-bottom: 0;
+    justify-content: flex-start;
+  }
+
+  /* Conteúdo ocupa apenas 1 coluna de forma mais compacta */
+  .hero__content {
+    gap: var(--spacing-md);
+    padding-bottom: var(--spacing-sm);
+  }
+
+  /* Seções: reduz padding vertical */
+  .section {
+    padding: var(--spacing-md) var(--spacing-md);
+  }
+
+  /* Footer: 3 colunas em vez de 4 no notebook */
+  .footer__grid {
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: var(--spacing-md);
+  }
+
+  /* Grid de 4 itens: 2 colunas */
+  .grid--4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Grid de about: reduz o gap */
+  .grid--about {
+    gap: 2.5rem;
+  }
+}
+
+/* =================================================
+   NOTEBOOK PEQUENO (≤ 1100px)
+================================================= */
+
+@media (max-width: 1100px) {
+  /* Hero: empilha colunas para evitar overflow */
+  .hero__content {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__visual {
+    height: 380px;
+  }
+
+  /* Hero stats: 3 colunas compactas */
+  .hero__stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  /* Navbar: compacta mais */
+  .navbar__menu {
+    gap: 1.2rem;
+  }
+
+  .navbar__link {
+    font-size: 0.95rem;
+  }
+
+  /* Footer: 2 colunas */
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Grids */
+  .grid--3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid--about {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }
 
 /* =================================================
