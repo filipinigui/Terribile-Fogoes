@@ -14,10 +14,13 @@ const produtosData = {
       descricao:
         "Eficiência e design que unem no Fogão loren1 Vitrocerâmica. Com chapa de cerâmica, ele aquece intensamente, consome menos lenha que os modelos tradicionais e oferece desempenho superior para sua cozinha.",
       imagens: [
-        "assets/img/produtos/vitroceramica/vitroceramica-lorem1.jpeg",
-        "assets/img/produtos/vitroceramica/fogao1-lateral.jpg",
-        "assets/img/produtos/vitroceramica/fogao1-topo.jpg",
-        "assets/img/produtos/vitroceramica/n1-grafico.jpeg",
+        "assets/img/produtos/vitroceramica/n1/loren-n1-1.jpg",
+        "assets/img/produtos/vitroceramica/n1/loren-n1-2.jpg",
+        "assets/img/produtos/vitroceramica/n1/loren-n1-4.jpg",
+        "assets/img/produtos/vitroceramica/n1/loren-n1-5.jpg",
+        "assets/img/produtos/vitroceramica/n1/loren-n1-6.jpg",
+        "assets/img/produtos/vitroceramica/n1/loren-n1-3.jpg",
+        "assets/img/produtos/vitroceramica/n1/n1-grafico.jpeg",
       ],
       especificacoes: {
         Modelo: "LOREN N1",
@@ -67,10 +70,12 @@ const produtosData = {
       descricao:
         "Eleve sua experiência culinária e o conforto do seu lar com o Fogão Loren nº2 Vitrocerâmica, onde a eficiência encontra um design sofisticado e funcionalidade ampliada. Com sua chapa vitrocerâmica de alta performance, este fogão não só garante um aquecimento intenso e uniforme para suas receitas, mas também se destaca pelo seu forno generosamente ampliado, perfeito para grandes preparos ou para aquecer ambientes espaçosos com uma eficiência térmica notável. Tudo isso, mantendo um consumo de lenha surpreendentemente baixo em comparação com os modelos tradicionais.",
       imagens: [
-        "assets/img/produtos/vitroceramica/loren-n2.jpeg",
-        "assets/img/produtos/vitroceramica/",
-        "assets/img/produtos/vitroceramica/fogao2-topo.jpg",
-        "assets/img/produtos/vitroceramica/n2-grafico.jpeg",
+        "assets/img/produtos/vitroceramica/n2/loren-n2-1.jpg",
+        "assets/img/produtos/vitroceramica/n2/loren-n2-3.jpg",
+        "assets/img/produtos/vitroceramica/n2/loren-n2-4.jpg",
+        "assets/img/produtos/vitroceramica/n2/loren-n2-5.jpg",
+        "assets/img/produtos/vitroceramica/n2/loren-n2-2.jpg",
+        "assets/img/produtos/vitroceramica/n2/n2-grafico.jpeg",
       ],
       especificacoes: {
         Modelo: "LOREN N2",
@@ -120,10 +125,8 @@ const produtosData = {
       descricao:
         "Fogão a lenha com sistema exclusivo de dupla combustão e chapa vitrocerâmica. Maior aproveitamento da lenha, redução de fumaça e eficiência energética superior.",
       imagens: [
-        "assets/img/produtos/destaque/fog4.jpeg",
-        "assets/img/produtos/vitroceramica/dupla-lateral.jpg",
-        "assets/img/produtos/vitroceramica/dupla-topo.jpg",
-        "assets/img/produtos/vitroceramica/dupla-grafico.jpeg",
+        "assets/img/produtos/vitroceramica/dupla/dupla-1.jpg",
+        "assets/img/produtos/vitroceramica/dupla/dupla-grafico.jpeg",
       ],
       especificacoes: {
         Modelo: "FOGÃO DUPLA COMBUSTÃO",
@@ -176,10 +179,13 @@ const produtosData = {
       descricao:
         "Descubra a união perfeita entre eficiência e design imponente com o Fogão Loren nº1 Gabinete Vitrocerâmica. Este modelo exclusivo não só eleva o padrão da sua cozinha com sua chapa de cerâmica de aquecimento intenso e consumo otimizado de lenha, mas também oferece uma solução elegante e prática com seu gabinete integrado para armazenar lenha, garantindo desempenho superior e um visual sofisticado.",
       imagens: [
-        "assets/img/produtos/vitroceramica/loren-n1-gab.jpeg",
-        "assets/img/produtos/vitroceramica/gab-1.jpeg",
-        "assets/img/produtos/vitroceramica/gabinete1-aberto.jpg",
-        "assets/img/produtos/vitroceramica/n1-grafico-gabinete.jpeg",
+        "assets/img/produtos/vitroceramica/n1-gab/loren-n1-gab-branco.jpg",
+        "assets/img/produtos/vitroceramica/n1-gab/loren-n1-gab-2.jpg",
+        "assets/img/produtos/vitroceramica/n1-gab/loren-n1-gab-1.jpg",
+        "assets/img/produtos/vitroceramica/n1-gab/loren-n1-gab-3.jpg",
+        "assets/img/produtos/vitroceramica/n1-gab/loren-n1-gab-4.jpg",
+        "assets/img/produtos/vitroceramica/n1-gab/loren-n1-gab-5.jpg",
+        "assets/img/produtos/vitroceramica/n1-gab/n1-grafico-gabinete.jpeg",
       ],
       especificacoes: {
         Modelo: "LOREN N1 COM GABINETE",
@@ -230,10 +236,12 @@ const produtosData = {
       descricao:
         "Este modelo é a união perfeita de eficiência, design imponente e funcionalidade superior, tornando-se o destaque de qualquer espaço. Com sua chapa vitrocerâmica de alta performance, ele garante um aquecimento intenso e uniforme, ideal para suas criações culinárias. O grande diferencial é o seu gabinete integrado para armazenar lenha, que não só oferece praticidade incomparável ao manter a lenha sempre à mão, mas também confere ao fogão uma presença grandiosa e sofisticada. Além disso, conte com um forno generosamente ampliado, perfeito para grandes preparos ou para aquecer ambientes espaçosos com uma eficiência térmica notável, tudo isso mantendo um consumo de lenha surpreendentemente baixo em comparação com os modelos tradicionais.",
       imagens: [
-        "assets/img/produtos/vitroceramica/vitroceramica-lorem2-gabinete2.jpeg",
-        "assets/img/produtos/vitroceramica/",
-        "assets/img/produtos/vitroceramica/gabinete2-aberto.jpg",
-        "assets/img/produtos/vitroceramica/n2-grafico-gabinete.jpeg",
+        "assets/img/produtos/vitroceramica/n2-gab/loren-n2-gab-1.jpg",
+        "assets/img/produtos/vitroceramica/n2-gab/loren-n2-gab-3.jpg",
+        "assets/img/produtos/vitroceramica/n2-gab/loren-n2-gab-4.jpg",
+        "assets/img/produtos/vitroceramica/n2-gab/loren-n2-gab-5.jpg",
+        "assets/img/produtos/vitroceramica/n2-gab/loren-n2-gab-2.jpg",
+        "assets/img/produtos/vitroceramica/n2-gab/n2-grafico-gabinete.jpeg",
       ],
       especificacoes: {
         Modelo: "LOREN N2 COM GABINETE",
@@ -292,10 +300,8 @@ const produtosData = {
       descricao:
         "Fogão a lenha com chapa de alumínio anodizado de médio porte. Mais área de cozimento, melhor distribuição de calor e acabamento premium para cozinhas que demandam mais.",
       imagens: [
-        "assets/img/produtos/aluminio/fogao2-frente.jpg",
-        "assets/img/produtos/aluminio/fogao2-lateral.jpg",
-        "assets/img/produtos/aluminio/fogao2-topo.jpg",
-        "assets/img/produtos/aluminio/n2-grafico-al.jpeg",
+        "assets/img/produtos/aluminio/n2/al-loren2-1.jpg",
+        "assets/img/produtos/aluminio/n2/n2-grafico-al.jpeg",
       ],
       especificacoes: {
         Modelo: "LOREN N2 ALUMÍNIO",
@@ -348,10 +354,12 @@ const produtosData = {
       descricao:
         "Fogão a lenha Loren 2 com chapa de alumínio anodizado e gabinete completo. A opção mais robusta da linha alumínio — ideal para quem precisa de mais espaço e capacidade de forno.",
       imagens: [
-        "assets/img/produtos/aluminio/cooktop-frente.jpg",
-        "assets/img/produtos/aluminio/cooktop-topo.jpg",
-        "assets/img/produtos/aluminio/cooktop-lateral.jpg",
-        "assets/img/produtos/aluminio/n2-grafico-al-gab.jpeg",
+        "assets/img/produtos/aluminio/n2-gab/al-loren2-gab-1.jpg",
+        "assets/img/produtos/aluminio/n2-gab/al-loren2-gab-3.jpg",
+        "assets/img/produtos/aluminio/n2-gab/al-loren2-gab-4.jpg",
+        "assets/img/produtos/aluminio/n2-gab/al-loren2-gab-5.jpg",
+        "assets/img/produtos/aluminio/n2-gab/al-loren2-gab-2.jpg",
+        "assets/img/produtos/aluminio/n2-gab/n2-grafico-al-gab.jpeg",
       ],
       especificacoes: {
         Modelo: "LOREN N2 ALUMÍNIO COM GABINETE",
@@ -412,10 +420,7 @@ const produtosData = {
       descricao:
         "Fogão a lenha Loren 2 com chapa de ferro fundido de médio porte. Maior superfície de cozimento, potência de aquecimento superior e construção reforçada para uso residencial e comercial.",
       imagens: [
-        "assets/img/produtos/ferro/fogao2-frente.jpg",
-        "assets/img/produtos/ferro/fogao2-lateral.jpg",
-        "assets/img/produtos/ferro/fogao2-topo.jpg",
-        "assets/img/produtos/ferro/fogao2-uso.jpg",
+        
       ],
       especificacoes: {
         Modelo: "LOREN N2 FERRO FUNDIDO",
@@ -468,10 +473,7 @@ const produtosData = {
       descricao:
         "Fogão a lenha Loren 2 com chapa de ferro fundido e gabinete de médio porte. Maior capacidade de forno, câmara de combustão ampliada e resistência para uso comercial intenso.",
       imagens: [
-        "assets/img/produtos/ferro/comercial-frente.jpg",
-        "assets/img/produtos/ferro/comercial-lateral.jpg",
-        "assets/img/produtos/ferro/comercial-detalhe.jpg",
-        "assets/img/produtos/ferro/comercial-cozinha.jpg",
+
       ],
       especificacoes: {
         Modelo: "LOREN N2 FERRO COM GABINETE",
