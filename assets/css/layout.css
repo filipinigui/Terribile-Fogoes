@@ -40,8 +40,9 @@
 }
 
 .navbar__logo {
-  height: 50px;
+  height: 60px;
   transition: var(--transition-base);
+  aspect-ratio: 9/1;
 }
 
 .navbar__logo:hover {
