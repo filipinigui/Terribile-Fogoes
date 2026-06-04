@@ -237,6 +237,27 @@
     } else if (product.imagem) {
       updateGallery([product.imagem]);
     }
+    // Disponibildade
+    const btnOrcamento = document.getElementById("btn-orcamento");
+    const statusDisponibilidade = document.getElementById(
+      "status-disponibilidade",
+    );
+
+    // Se não existir, assume disponível
+    const disponivel = product.disponibilidade !== false;
+
+    if (disponivel) {
+      statusDisponibilidade.textContent = "Disponível";
+      statusDisponibilidade.style.background = "#2e7d32";
+    } else {
+      statusDisponibilidade.textContent = "Indisponível no momento";
+      statusDisponibilidade.style.background = "#c62828";
+
+      // Esconde botão
+      if (btnOrcamento) {
+        btnOrcamento.style.display = "none";
+      }
+    }
   }
 
   // ================================================
@@ -262,8 +283,7 @@
         descHtml += "</ul>";
       }
 
-      descHtml +=
-        '<p style="margin-top:1rem;">'+product.frase+'</p>';
+      descHtml += '<p style="margin-top:1rem;">' + product.frase + "</p>";
       tabContents[0].innerHTML = descHtml;
     }
 

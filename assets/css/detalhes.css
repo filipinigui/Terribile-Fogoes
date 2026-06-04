@@ -266,6 +266,49 @@
 }
 
 /* ============================================
+    DISPONIBILIDADE
+   ============================================ */
+
+.disponibilidade {
+  font-family: var(--font-primary);
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--color-black);
+  line-height: 1.2;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.disponibilidade_title{
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-black);
+  margin-bottom: var(--spacing-sm);
+  display: flex;
+  align-items: center;
+}
+
+.status_disponibilidade {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-family: var(--font-primary);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* ============================================
    PRODUCT SPECS
    ============================================ */
 
@@ -299,8 +342,8 @@
   border-left: 4px solid var(--color-primary);
   /* Linha central decorativa no desktop (2 colunas) */
   background:
-    linear-gradient(var(--color-gray), var(--color-gray)) center /
-      2px 100% no-repeat,
+    linear-gradient(var(--color-gray), var(--color-gray)) center / 2px 100%
+      no-repeat,
     var(--color-off-white);
 }
 
@@ -769,8 +812,8 @@
   }
 
   .actions-flutuante2 .btn--return {
-    width: 100%;           /* largura total — fácil de tocar */
-    padding: 1rem 1.5rem;  /* mesmo conforto dos outros botões */
+    width: 100%; /* largura total — fácil de tocar */
+    padding: 1rem 1.5rem; /* mesmo conforto dos outros botões */
     font-size: 1rem;
     text-align: center;
   }

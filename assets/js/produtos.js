@@ -171,6 +171,8 @@ const produtosData = {
       ],
       mensagemWhatsApp:
         "Olá! Gostaria de mais informações sobre o Fogão Dupla Combustão Vitrocerâmica.",
+      disponibilidade: 
+        false
     },
     {
       id: "vitro-loren1-gabinete",
