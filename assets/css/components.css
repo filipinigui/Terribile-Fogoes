@@ -106,6 +106,16 @@
   color: white;
 }
 
+/*Disponibilidade*/
+
+.btn--whatsapp.indisponivel {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.btn--whatsapp.indisponivel::after {
+  background: #c62828;
+}
 /* ============================================
    CATEGORY CARDS
    ============================================ */

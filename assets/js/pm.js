@@ -54,6 +54,7 @@
       .replace("Acessórios e Peças", "Acessórios");
 
     const imageSrc = getProductImage(product);
+
     const imageHtml =
       imageSrc.trim() !== ""
         ? '<img src="' +
@@ -62,6 +63,17 @@
           product.nome +
           '" onerror="this.parentElement.innerHTML=\'<div class=&quot;product-card__placeholder&quot;>🔥</div>\'">'
         : '<div class="product-card__placeholder">🔥</div>';
+
+    // disponibilidade
+    const disponivel = product.disponibilidade !== false;
+
+    const whatsappButton = disponivel
+      ? '<a href="https://wa.me/54999960180?text=' +
+        encodeURIComponent(
+          product.mensagemWhatsApp || "Olá! Gostaria de mais informações.",
+        ) +
+        '" class="btn btn--whatsapp" target="_blank" data-status="Disponível">WhatsApp</a>'
+      : '<a class="btn btn--whatsapp.indisponivel" data-status="Indisponível no momento">Indisponível no momento</a>';
 
     return [
       '<div class="product-card">',
@@ -78,11 +90,7 @@
       '      <button class="btn btn--view" onclick="viewProduct(\'' +
         product.id +
         "')\">Ver Detalhes</button>",
-      '      <a href="https://wa.me/54999960180?text=' +
-        encodeURIComponent(
-          product.mensagemWhatsApp || "Olá! Gostaria de mais informações.",
-        ) +
-        '" class="btn btn--whatsapp" target="_blank">WhatsApp</a>',
+      "      " + whatsappButton,
       "    </div>",
       "  </div>",
       "</div>",
