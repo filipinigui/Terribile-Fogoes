@@ -108,6 +108,7 @@
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: linear-gradient(
@@ -117,6 +118,12 @@
   );
   font-size: 12rem;
   color: var(--color-primary);
+  p{
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    font-weight: bold;
+  }
 }
 
 .product-gallery__nav {

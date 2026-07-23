@@ -171,8 +171,7 @@ const produtosData = {
       ],
       mensagemWhatsApp:
         "Olá! Gostaria de mais informações sobre o Fogão Dupla Combustão Vitrocerâmica.",
-      disponibilidade: 
-        false
+      disponibilidade: false,
     },
     {
       id: "vitro-loren1-gabinete",
@@ -288,6 +287,61 @@ const produtosData = {
       ],
       mensagemWhatsApp:
         "Olá! Gostaria de mais informações sobre o Fogão Loren gabinete 2 Vitrocerâmica.",
+    },
+    {
+      id: "vitro-loren00",
+      nome: "Fogão Loren 00 Vitrocerâmica",
+      categoria: "Fogões Chapa Vitrocerâmica",
+      descricao:
+        "Compacto no tamanho, grande no aquecimento. O Fogão Loren 00 foi desenvolvido para quem busca alto desempenho em um modelo compacto. Sua fornalha revestida com tijolos refratários, o isolamento térmico em lã de rocha e a chapa vitrocerâmica formam a combinação ideal para aproveitar melhor o calor. O resultado é um aquecimento eficiente e uniforme do ambiente, com menor perda de temperatura e baixo consumo de lenha. Além de aquecer, oferece praticidade para cozinhar e um acabamento elegante que combina com diferentes espaços. Pequeno por fora. Potente no aquecimento.",
+      imagens: [
+        "assets/img/produtos/vitroceramica/00/00-1.jpeg",
+        "assets/img/produtos/vitroceramica/00/00-2.jpeg",
+        "assets/img/produtos/vitroceramica/00/00-3.jpeg",
+        "assets/img/produtos/vitroceramica/00/00-4.jpeg",
+        "assets/img/produtos/vitroceramica/00/00-grafico.jpeg",
+      ],
+      especificacoes: {
+        Modelo: "LOREN 00",
+        Tipo: "A lenha",
+        "Saída da Chaminé": "Atrás centralizada",
+        Chapa: "Vitrocerâmica",
+        Forno: "",
+
+        "Tamanho total (A x L x P)": "75 x 95 x 58 cm",
+        "Tamanho da chapa": "37,5 x 45 cm",
+        "Total Chapa com Varão (L x P)": "57,5 x 58 cm",
+        "Tamanho da Fornalha (A x L x P)": "14,5 x 21,5 x 43 cm",
+        "Tamanho do Forno (A x L x P)": "",
+        "Tamanho porta lenha (A x L x P)": "",
+
+        "Estrutura Externa": "Aço carbono 1,2 mm",
+        "Estrutura Interna": "Inox",
+        "Diâmetro da Chaminé": "Ø 110 mm",
+
+        Peso: "40 kg",
+        Pintura: "Alta Temperatura",
+        Acabamento: "Inox",
+        "Material da Fornalha": "Tijolos refratários",
+        "Material do Forno": "",
+        "Isolamento Interno": "Lã de rocha",
+        "Moldura das Portas": "Alumínio fundido",
+      },
+      caracteristicas: [
+        "•	Chapa Vitrocerâmica de Alta Resistência: Garante durabilidade, distribuição uniforme de calor e uma superfície de fácil limpeza, com um toque moderno.",
+        "•	Fornalha de Tijolos Refratários: Otimiza a queima da lenha, proporcionando maior eficiência energética e um aquecimento superior.",
+        "•	Estrutura em Aço Carbono 1,20 mm com interior em Inox: Combina robustez externa com higiene e durabilidade interna.",
+        "•	Isolamento em Lã de Rocha: Retém o calor de forma eficiente, reduzindo o consumo de lenha e aumentando a segurança.",
+        "•	Versatilidade na Instalação: Oferece opções de saída de chaminé tanto na parte superior da chapa quanto na traseira do fogão.",
+        "•	Moldura das Portas em Alumínio Fundido: Acabamento resistente ao calor com visual premium.",
+        "•	Pintura Eletrostática: Acabamento duradouro e uniforme resistente a altas temperaturas.",
+        "•	Puxadores Ergonômicos: Desenvolvidos para não aquecerem excessivamente, garantindo segurança e conforto no manuseio.",
+      ],
+      frase: [
+        "Fabricados com dedicação, nossos fogões são sinônimo de qualidade, funcionalidade e do calor acolhedor que só um produto feito com paixão pode oferecer, agora com ainda mais capacidade e presença para suas necessidades",
+      ],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Fogão Loren 00 Vitrocerâmica.",
     },
   ],
 
@@ -421,9 +475,7 @@ const produtosData = {
       categoria: "Fogões Chapa de Ferro",
       descricao:
         "Fogão a lenha Loren 2 com chapa de ferro fundido de médio porte. Maior superfície de cozimento, potência de aquecimento superior e construção reforçada para uso residencial e comercial.",
-      imagens: [
-        
-      ],
+      imagens: [],
       especificacoes: {
         Modelo: "LOREN N2 FERRO FUNDIDO",
         Tipo: "A lenha",
@@ -474,9 +526,7 @@ const produtosData = {
       categoria: "Fogões Chapa de Ferro",
       descricao:
         "Fogão a lenha Loren 2 com chapa de ferro fundido e gabinete de médio porte. Maior capacidade de forno, câmara de combustão ampliada e resistência para uso comercial intenso.",
-      imagens: [
-
-      ],
+      imagens: [],
       especificacoes: {
         Modelo: "LOREN N2 FERRO COM GABINETE",
         Tipo: "A lenha",
