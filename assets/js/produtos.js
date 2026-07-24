@@ -308,7 +308,7 @@ const produtosData = {
         Chapa: "Vitrocerâmica",
         Forno: "",
 
-        "Tamanho total (A x L x P)": "75 x 95 x 58 cm",
+        "Tamanho total (A x L x P)": "75 x 57,5 x 58 cm",
         "Tamanho da chapa": "37,5 x 45 cm",
         "Total Chapa com Varão (L x P)": "57,5 x 58 cm",
         "Tamanho da Fornalha (A x L x P)": "14,5 x 21,5 x 43 cm",
