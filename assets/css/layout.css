@@ -37,12 +37,18 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  flex-shrink: 0;
 }
 
 .navbar__logo {
   height: 60px;
-  transition: var(--transition-base);
+  width: auto;
+  max-width: none; /* sobrepõe o reset global "img { max-width: 100% }",
+                       que forçava a logo a encolher na largura e
+                       distorcer a proporção da marca em telas estreitas */
   aspect-ratio: 9/1;
+  flex-shrink: 0;
+  transition: var(--transition-base);
 }
 
 .navbar__logo:hover {
@@ -100,6 +106,19 @@
   width: 30px;
   height: 3px;
   background: var(--color-white);
+  transition: var(--transition-base);
+}
+
+.navbar__toggle.active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.navbar__toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar__toggle.active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 /* =================================================
@@ -207,6 +226,7 @@
   overflow: hidden;
 
   transform: scale(110%);
+  transition: 1s;
 }
 
 /* Stats: absolutas sobre o fundo escuro no desktop */
@@ -539,6 +559,10 @@
     display: flex;
   }
 
+  .navbar__logo {
+    height: 44px;
+  }
+
   .navbar__menu {
     position: absolute;
     top: 80px;
@@ -604,6 +628,10 @@
 ================================================= */
 
 @media (max-width: 480px) {
+  .navbar__logo {
+    height: 36px;
+  }
+
   .hero__text h1 {
     font-size: 2rem;
   }

@@ -39,8 +39,9 @@
     // Mobile menu toggle
     if (navbarToggle && navbarMenu) {
       navbarToggle.addEventListener("click", function () {
-        navbarMenu.classList.toggle("active");
-        navbarToggle.classList.toggle("active");
+        const isOpen = navbarMenu.classList.toggle("active");
+        navbarToggle.classList.toggle("active", isOpen);
+        navbarToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
       });
     }
 
@@ -52,6 +53,7 @@
         }
         if (navbarToggle) {
           navbarToggle.classList.remove("active");
+          navbarToggle.setAttribute("aria-expanded", "false");
         }
       });
     });

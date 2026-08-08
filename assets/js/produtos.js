@@ -575,6 +575,630 @@ const produtosData = {
         "Olá! Gostaria de mais informações sobre o Fogão Loren 2 Ferro com Gabinete.",
     },
   ],
+
+  // ====================================
+  // CATEGORIA 4: LINHA CHURRASCO
+  // ====================================
+  "churrasco": [
+    // ==========================
+    // CHURRASQUEIRA
+    // ==========================
+    {
+      id: "churrasqueira-santa-maria-grill-smg760",
+      nome: "Churrasqueira Santa Maria Grill SMG760",
+      categoria: "Linha Churrasco",
+      subcategoria: "Churrasqueira",
+      descricao:
+        "A Churrasqueira Santa Maria Grill SMG760 foi desenvolvida para quem busca praticidade, robustez e excelente desempenho no preparo do churrasco. Fabricada em aço carbono com componentes em aço inox 304, alia resistência, durabilidade e um acabamento sofisticado. Seu sistema de regulagem de altura da grelha permite controlar a intensidade do calor com facilidade, proporcionando maior precisão no preparo de carnes e outros alimentos. Com ampla área útil de 37,5 x 65 cm, oferece espaço suficiente para atender desde encontros em família até confraternizações maiores, mantendo a qualidade e a eficiência durante o uso.",
+      imagens: [
+        "assets/img/produtos/churrasco/01-Churrasqueira/ch01-churrasqueira-santa-maria-grill-smg760.jpg",
+      ],
+      especificacoes: {
+        Modelo: "SANTA MARIA GRILL SMG760",
+        Material: "Aço carbono / aço inox",
+        Acabamento: "Aço inox 304",
+        Cor: "Craquelado preto / aço inox",
+        "Dimensões (A x L x P)": "112,5 x 92,1 x 47,5 cm",
+        "Área da Grelha": "37,5 x 65 cm",
+        Garantia: "12 meses",
+      },
+      caracteristicas: [
+        "Regulagem de altura da grelha para controle preciso da intensidade do calor.",
+        "Estrutura em aço carbono com componentes em aço inox 304.",
+        "Ampla área útil de grelha: 37,5 x 65 cm.",
+        "Acabamento craquelado preto de alta durabilidade.",
+        "Design robusto, ideal para uso residencial e confraternizações.",
+      ],
+      frase: [
+        "A Santa Maria Grill SMG760 une robustez, praticidade e o acabamento premium da TERRIBILE para transformar qualquer encontro em um grande churrasco.",
+      ],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre a Churrasqueira Santa Maria Grill SMG760.",
+    },
+
+    // ==========================
+    // ESPETOS DUPLOS
+    // ==========================
+    {
+      id: "ed01",
+      nome: "Espeto Duplo Fino Cabo Inox 75 cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Duplos",
+      descricao:
+        "Os espetos duplos são produzidos em aço inox 304, oferecendo elevada resistência à corrosão, longa vida útil e facilidade na limpeza. O formato duplo proporciona maior estabilidade para os alimentos durante o preparo, evitando que a carne gire ao ser manuseada. Disponíveis em diferentes espessuras de haste, comprimentos e opções de cabo em inox ou cabo térmico, adaptam-se às necessidades de quem prepara desde pequenos cortes até peças maiores, garantindo segurança, firmeza e praticidade durante o churrasco.",
+      imagens: [
+        "assets/img/produtos/churrasco/02-Espetos-Duplos/ed01-espeto-duplo-fino-cabo-inox-75cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "75 cm",
+        Haste: "4,76 mm",
+        Cabo: "Inox",
+      },
+      caracteristicas: [
+        "Formato duplo garante maior estabilidade e evita que a carne gire ao manusear.",
+        "Fabricado em aço inox 304 — alta resistência à corrosão.",
+        "Cabo em inox, sem revestimento térmico.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Duplo Fino Cabo Inox 75 cm.",
+    },
+
+    {
+      id: "ed02",
+      nome: "Espeto Duplo Grosso Cabo Inox 75 cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Duplos",
+      descricao: "Espeto duplo grosso com cabo inox 75 cm.",
+      imagens: [
+        "assets/img/produtos/churrasco/02-Espetos-Duplos/ed02-espeto-duplo-grosso-cabo-inox-75cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "75 cm",
+        Haste: "6,35 mm",
+        Cabo: "Inox",
+      },
+      caracteristicas: [
+        "Haste mais grossa (6,35 mm), ideal para cortes maiores e mais pesados.",
+        "Fabricado em aço inox 304 — alta resistência à corrosão.",
+        "Cabo em inox, sem revestimento térmico.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Duplo Grosso Cabo Inox 75 cm.",
+    },
+
+    {
+      id: "ed03",
+      nome: "Espeto Duplo Comunidade Cabo Inox 113 cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Duplos",
+      descricao: "Espeto duplo comunidade cabo inox 113 cm.",
+      imagens: [
+        "assets/img/produtos/churrasco/02-Espetos-Duplos/ed03-espeto-duplo-comunidade-cabo-inox-113cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "113 cm",
+        Haste: "6,35 mm",
+        Cabo: "Inox",
+      },
+      caracteristicas: [
+        "Tamanho comunidade (113 cm), ideal para grelhas e churrasqueiras maiores.",
+        "Fabricado em aço inox 304 — alta resistência à corrosão.",
+        "Cabo em inox, sem revestimento térmico.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Duplo Comunidade Cabo Inox 113 cm.",
+    },
+
+    {
+      id: "et01",
+      nome: "Espeto Duplo Fino Cabo Térmico 95 cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Duplos",
+      descricao: "Espeto duplo fino cabo térmico 95 cm.",
+      imagens: [
+        "assets/img/produtos/churrasco/02-Espetos-Duplos/et01-espeto-duplo-fino-cabo-termico-95cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "95 cm",
+        Haste: "4,76 mm",
+        Cabo: "Térmico",
+      },
+      caracteristicas: [
+        "Cabo térmico — não esquenta durante o uso, mais conforto no manuseio.",
+        "Fabricado em aço inox 304 — alta resistência à corrosão.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Duplo Fino Cabo Térmico 95 cm.",
+    },
+
+    {
+      id: "et02",
+      nome: "Espeto Duplo Grosso Cabo Térmico 95 cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Duplos",
+      descricao: "Espeto duplo grosso cabo térmico 95 cm.",
+      imagens: [
+        "assets/img/produtos/churrasco/02-Espetos-Duplos/et02-espeto-duplo-grosso-cabo-termico-95cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "95 cm",
+        Haste: "6,35 mm",
+        Cabo: "Térmico",
+      },
+      caracteristicas: [
+        "Cabo térmico — não esquenta durante o uso, mais conforto no manuseio.",
+        "Haste mais grossa (6,35 mm), ideal para cortes maiores.",
+        "Fabricado em aço inox 304 — alta resistência à corrosão.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Duplo Grosso Cabo Térmico 95 cm.",
+    },
+
+    {
+      id: "et03",
+      nome: "Espeto Duplo Fino Comunidade Cabo Térmico 113 cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Duplos",
+      descricao: "Espeto duplo fino comunidade cabo térmico 113 cm.",
+      imagens: [
+        "assets/img/produtos/churrasco/02-Espetos-Duplos/et03-espeto-duplo-fino-comunidade-cabo-termico-113cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "113 cm",
+        Haste: "4,76 mm",
+        Cabo: "Térmico",
+      },
+      caracteristicas: [
+        "Tamanho comunidade (113 cm) com haste fina, cabo térmico.",
+        "Fabricado em aço inox 304 — alta resistência à corrosão.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Duplo Fino Comunidade Cabo Térmico 113 cm.",
+    },
+
+    {
+      id: "et04",
+      nome: "Espeto Duplo Comunidade Cabo Térmico 113 cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Duplos",
+      descricao: "Espeto duplo comunidade cabo térmico 113 cm.",
+      imagens: [
+        "assets/img/produtos/churrasco/02-Espetos-Duplos/et04-espeto-duplo-comunidade-cabo-termico-113cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "113 cm",
+        Haste: "6,35 mm",
+        Cabo: "Térmico",
+      },
+      caracteristicas: [
+        "Tamanho comunidade (113 cm) com haste grossa, cabo térmico.",
+        "Fabricado em aço inox 304 — alta resistência à corrosão.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Duplo Comunidade Cabo Térmico 113 cm.",
+    },
+
+    // ==========================
+    // ESPETOS SIMPLES MEIA CANA
+    // ==========================
+    {
+      id: "mc01",
+      nome: "Espeto Simples Meia Cana Coração 95 cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Simples Meia Cana",
+      descricao:
+        "Os espetos simples meia cana são produzidos em aço inox 304, com perfil chato levemente curvo que facilita a rotação e o manuseio dos alimentos na brasa. O modelo Coração tem acabamento diferenciado na ponta do cabo, unindo tradição e um toque especial de estilo. Ideal para carnes em geral, garantindo boa penetração de calor e facilidade na hora de servir.",
+      imagens: [
+        "assets/img/produtos/churrasco/03-Espetos-Simples-Meia-Cana/mc01-espeto-simples-meia-cana-coracao-95cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "95 cm",
+        Perfil: "1,2 x 14 mm",
+        Modelo: "Coração",
+      },
+      caracteristicas: [
+        "Perfil meia cana em inox 304 — leve, resistente e de fácil manuseio.",
+        "Acabamento diferenciado em formato de coração na ponta do cabo.",
+        "Ideal para carnes em geral.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Simples Meia Cana Coração 95 cm.",
+    },
+    {
+      id: "mc02",
+      nome: "Espeto Simples Meia Cana 95 cm (1,2 x 20 mm)",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Simples Meia Cana",
+      descricao:
+        "Espeto simples meia cana em aço inox 304, com perfil de 1,2 x 20 mm e 95 cm de comprimento. Ótimo custo-benefício para o dia a dia do churrasco, com boa resistência e facilidade de limpeza.",
+      imagens: [
+        "assets/img/produtos/churrasco/03-Espetos-Simples-Meia-Cana/mc02-espeto-simples-meia-cana-12x20-95cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "95 cm",
+        Perfil: "1,2 x 20 mm",
+      },
+      caracteristicas: [
+        "Perfil meia cana em inox 304 — leve, resistente e de fácil manuseio.",
+        "Perfil mais largo (20 mm) para maior firmeza na hora de girar a carne.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Simples Meia Cana 95 cm (1,2 x 20 mm).",
+    },
+    {
+      id: "mc03",
+      nome: "Espeto Simples Meia Cana 95 cm (1,5 x 22 mm)",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Simples Meia Cana",
+      descricao:
+        "Espeto simples meia cana em aço inox 304, com perfil de 1,5 x 22 mm e 95 cm de comprimento. Espessura intermediária, equilibrando resistência e leveza para peças de carne maiores.",
+      imagens: [
+        "assets/img/produtos/churrasco/03-Espetos-Simples-Meia-Cana/mc03-espeto-simples-meia-cana-15x22-95cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "95 cm",
+        Perfil: "1,5 x 22 mm",
+      },
+      caracteristicas: [
+        "Perfil meia cana em inox 304 — leve, resistente e de fácil manuseio.",
+        "Espessura intermediária, ideal para peças médias a grandes.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Simples Meia Cana 95 cm (1,5 x 22 mm).",
+    },
+    {
+      id: "mc04",
+      nome: "Espeto Simples Meia Cana 95 cm (1,5 x 28 mm)",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Simples Meia Cana",
+      descricao:
+        "Espeto simples meia cana em aço inox 304, com perfil de 1,5 x 28 mm e 95 cm de comprimento. Maior largura de lâmina, proporcionando mais estabilidade para peças grandes de carne.",
+      imagens: [
+        "assets/img/produtos/churrasco/03-Espetos-Simples-Meia-Cana/mc04-espeto-simples-meia-cana-15x28-95cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "95 cm",
+        Perfil: "1,5 x 28 mm",
+      },
+      caracteristicas: [
+        "Perfil meia cana em inox 304 — leve, resistente e de fácil manuseio.",
+        "Lâmina mais larga (28 mm), maior estabilidade para peças grandes.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Simples Meia Cana 95 cm (1,5 x 28 mm).",
+    },
+    {
+      id: "mc05",
+      nome: "Espeto Simples Meia Cana 115 cm (1,5 x 30 mm)",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Simples Meia Cana",
+      descricao:
+        "Espeto simples meia cana em aço inox 304, com perfil de 1,5 x 30 mm e 115 cm de comprimento. O maior da linha meia cana, indicado para peças grandes e uso em churrasqueiras de maior porte.",
+      imagens: [
+        "assets/img/produtos/churrasco/03-Espetos-Simples-Meia-Cana/mc05-espeto-simples-meia-cana-15x30-115cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "115 cm",
+        Perfil: "1,5 x 30 mm",
+      },
+      caracteristicas: [
+        "Perfil meia cana em inox 304 — leve, resistente e de fácil manuseio.",
+        "Maior comprimento (115 cm) e maior largura de lâmina (30 mm) da linha.",
+        "Indicado para churrasqueiras de maior porte e peças grandes.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Simples Meia Cana 115 cm (1,5 x 30 mm).",
+    },
+
+    // ==========================
+    // ESPETOS SIMPLES MACIÇOS
+    // ==========================
+    {
+      id: "ms01",
+      nome: "Espeto Simples Maciço 95 cm (3 x 10 mm)",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Simples Maciços",
+      descricao:
+        "Espeto simples maciço em aço inox 304, com perfil de 3 x 10 mm e 95 cm de comprimento. Estrutura maciça de alta durabilidade, ideal para cortes menores e uso frequente.",
+      imagens: [
+        "assets/img/produtos/churrasco/04-Espetos-Simples-Macicos/ms01-espeto-simples-macico-3x10-95cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "95 cm",
+        Perfil: "3 x 10 mm",
+      },
+      caracteristicas: [
+        "Perfil maciço em inox 304 — extremamente resistente e durável.",
+        "Perfil mais fino da linha, ideal para cortes menores.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Simples Maciço 95 cm (3 x 10 mm).",
+    },
+    {
+      id: "ms02",
+      nome: "Espeto Simples Maciço 95 cm (4 x 10 mm)",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Simples Maciços",
+      descricao:
+        "Espeto simples maciço em aço inox 304, com perfil de 4 x 10 mm e 95 cm de comprimento. Combina robustez e leveza para o uso diário no churrasco.",
+      imagens: [
+        "assets/img/produtos/churrasco/04-Espetos-Simples-Macicos/ms02-espeto-simples-macico-4x10-95cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "95 cm",
+        Perfil: "4 x 10 mm",
+      },
+      caracteristicas: [
+        "Perfil maciço em inox 304 — extremamente resistente e durável.",
+        "Boa relação entre robustez e leveza para uso diário.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Simples Maciço 95 cm (4 x 10 mm).",
+    },
+    {
+      id: "ms03",
+      nome: "Espeto Simples Maciço 95 cm (4 x 12 mm)",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Simples Maciços",
+      descricao:
+        "Espeto simples maciço em aço inox 304, com perfil de 4 x 12 mm e 95 cm de comprimento. Perfil intermediário, indicado para peças médias de carne.",
+      imagens: [
+        "assets/img/produtos/churrasco/04-Espetos-Simples-Macicos/ms03-espeto-simples-macico-4x12-95cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "95 cm",
+        Perfil: "4 x 12 mm",
+      },
+      caracteristicas: [
+        "Perfil maciço em inox 304 — extremamente resistente e durável.",
+        "Perfil intermediário, indicado para peças médias.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Simples Maciço 95 cm (4 x 12 mm).",
+    },
+    {
+      id: "ms04",
+      nome: "Espeto Simples Maciço 95 cm (4 x 15 mm)",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Simples Maciços",
+      descricao:
+        "Espeto simples maciço em aço inox 304, com perfil de 4 x 15 mm e 95 cm de comprimento. Mais largo, garante maior estabilidade para peças de carne mais pesadas.",
+      imagens: [
+        "assets/img/produtos/churrasco/04-Espetos-Simples-Macicos/ms04-espeto-simples-macico-4x15-95cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "95 cm",
+        Perfil: "4 x 15 mm",
+      },
+      caracteristicas: [
+        "Perfil maciço em inox 304 — extremamente resistente e durável.",
+        "Maior largura, mais estabilidade para peças pesadas.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Simples Maciço 95 cm (4 x 15 mm).",
+    },
+    {
+      id: "ms05",
+      nome: "Espeto Simples Maciço 95 cm (4 x 19 mm)",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Simples Maciços",
+      descricao:
+        "Espeto simples maciço em aço inox 304, com perfil de 4 x 19 mm e 95 cm de comprimento. O mais robusto da linha maciça, indicado para grandes peças e uso intenso.",
+      imagens: [
+        "assets/img/produtos/churrasco/04-Espetos-Simples-Macicos/ms05-espeto-simples-macico-4x19-95cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "95 cm",
+        Perfil: "4 x 19 mm",
+      },
+      caracteristicas: [
+        "Perfil maciço em inox 304 — extremamente resistente e durável.",
+        "Perfil mais largo da linha maciça (19 mm), indicado para grandes peças.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Simples Maciço 95 cm (4 x 19 mm).",
+    },
+
+    // ==========================
+    // ESPETOS TRIPLOS
+    // ==========================
+    {
+      id: "tr01",
+      nome: "Espeto Triplo Linguiça Campeira 95 cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Triplos",
+      descricao:
+        "Espeto triplo em aço inox 304, desenvolvido especialmente para linguiça campeira. As três hastes garantem firmeza e distribuição uniforme sobre a brasa, facilitando o preparo e evitando que a peça gire ou escorregue.",
+      imagens: [
+        "assets/img/produtos/churrasco/05-Espetos-Triplos/tr01-espeto-triplo-linguica-campeira-95cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "95 cm",
+        Largura: "12,5 cm",
+        Haste: "6,35 mm",
+        Cabo: "Térmico largo",
+      },
+      caracteristicas: [
+        "Três hastes garantem firmeza e distribuição uniforme sobre a brasa.",
+        "Desenvolvido especialmente para linguiça campeira.",
+        "Cabo térmico largo — não esquenta e proporciona pegada confortável.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Triplo Linguiça Campeira 95 cm.",
+    },
+    {
+      id: "tr02",
+      nome: "Espeto Triplo Grosso 95 cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Espetos Triplos",
+      descricao:
+        "Espeto triplo em aço inox 304, com hastes mais grossas, ideal para carnes e cortes maiores. As três hastes garantem estabilidade e cozimento uniforme, evitando que a peça gire durante o preparo.",
+      imagens: [
+        "assets/img/produtos/churrasco/05-Espetos-Triplos/tr02-espeto-triplo-grosso-95cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        Comprimento: "95 cm",
+        Largura: "8 cm",
+        Haste: "6,35 mm",
+        Cabo: "Térmico",
+      },
+      caracteristicas: [
+        "Três hastes garantem firmeza e cozimento uniforme.",
+        "Indicado para carnes e cortes maiores.",
+        "Cabo térmico — não esquenta durante o uso.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Espeto Triplo Grosso 95 cm.",
+    },
+
+    // ==========================
+    // GRELHAS
+    // ==========================
+    {
+      id: "gr01",
+      nome: "Grelha Simples em Inox 38x51cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Grelhas",
+      descricao:
+        "Grelha simples em aço inox 304, com área útil de 38 x 51 cm. Estrutura resistente com varetas internas espaçadas, ideal para grelhar carnes, legumes e demais alimentos com praticidade e durabilidade.",
+      imagens: [
+        "assets/img/produtos/churrasco/06-Grelhas/gr01-grelha-simples-inox-38x51cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        "Área Útil": "38 x 51 cm",
+        "Comprimento Total": "95 cm",
+        "Hastes Laterais": "6,35 mm",
+        "Varetas Internas": "3 mm",
+      },
+      caracteristicas: [
+        "Fabricada em aço inox 304 — alta resistência à corrosão.",
+        "Hastes laterais reforçadas (6,35 mm) para maior durabilidade.",
+        "Varetas internas espaçadas para melhor circulação do calor.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre a Grelha Simples em Inox 38x51cm.",
+    },
+    {
+      id: "gr02",
+      nome: "Grelha Dupla em Inox 38x51cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Grelhas",
+      descricao:
+        "Grelha dupla em aço inox 304, com área útil de 38 x 51 cm. Design com dupla camada de varetas, oferecendo maior firmeza para os alimentos e facilidade na hora de virar a carne na brasa.",
+      imagens: [
+        "assets/img/produtos/churrasco/06-Grelhas/gr02-grelha-dupla-inox-38x51cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        "Área Útil": "38 x 51 cm",
+        "Comprimento Total": "85 cm",
+        "Hastes Laterais": "6,35 mm",
+        "Varetas Internas": "3 mm",
+      },
+      caracteristicas: [
+        "Fabricada em aço inox 304 — alta resistência à corrosão.",
+        "Dupla camada de varetas — maior firmeza para os alimentos.",
+        "Facilita virar a carne sem perder pedaços na brasa.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre a Grelha Dupla em Inox 38x51cm.",
+    },
+
+    // ==========================
+    // UTENSÍLIOS
+    // ==========================
+    {
+      id: "ut01",
+      nome: "Batedor em Inox 52 cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Utensílios",
+      descricao:
+        "Batedor em aço inox 304, com cabo térmico e formato ergonômico para bater e amaciar cortes de carne antes de irem à brasa. Item indispensável no preparo de churrascos.",
+      imagens: [
+        "assets/img/produtos/churrasco/07-Utensilios/ut01-batedor-inox-52cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        "Comprimento Total": "52 cm",
+        "Espessura da Haste": "4,76 mm",
+        Cabo: "Térmico",
+      },
+      caracteristicas: [
+        "Fabricado em aço inox 304 — alta resistência à corrosão.",
+        "Cabo térmico, confortável e seguro no manuseio.",
+        "Formato ergonômico, ideal para amaciar cortes de carne.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Batedor em Inox 52 cm.",
+    },
+    {
+      id: "ut02",
+      nome: "Mexedor de Brasa 92 cm",
+      categoria: "Linha Churrasco",
+      subcategoria: "Utensílios",
+      descricao:
+        "Mexedor de brasa em aço inox 304, com comprimento estendido de 92 cm e cabo térmico, garantindo segurança e distância ideal da fonte de calor ao organizar e avivar as brasas.",
+      imagens: [
+        "assets/img/produtos/churrasco/07-Utensilios/ut02-mexedor-de-brasa-92cm.jpg",
+      ],
+      especificacoes: {
+        Material: "Inox 304",
+        "Comprimento Total": "92 cm",
+        "Espessura da Haste": "6,35 mm",
+        Cabo: "Térmico",
+      },
+      caracteristicas: [
+        "Fabricado em aço inox 304 — alta resistência à corrosão.",
+        "Comprimento estendido (92 cm) para maior segurança ao mexer as brasas.",
+        "Cabo térmico, confortável e seguro no manuseio.",
+      ],
+      frase: [],
+      mensagemWhatsApp:
+        "Olá! Gostaria de mais informações sobre o Mexedor de Brasa 92 cm.",
+    },
+  ],
 };
 
 // ========================================
@@ -599,6 +1223,12 @@ function getProdutoById(id) {
 
 function getProdutosByCategoria(categoriaKey) {
   return produtosData[categoriaKey] || [];
+}
+
+function getSubcategorias(categoriaKey) {
+  const produtos = getProdutosByCategoria(categoriaKey);
+
+  return [...new Set(produtos.map((p) => p.subcategoria).filter(Boolean))];
 }
 
 function searchProdutos(query) {
